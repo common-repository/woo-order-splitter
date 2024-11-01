@@ -1,0 +1,3004 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-12-11 23:34+0500\n"
+"PO-Revision-Date: 2021-12-12 00:03+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: pro\n"
+"X-Poedit-SearchPath-1: inc\n"
+"X-Poedit-SearchPath-2: index.php\n"
+"X-Poedit-SearchPath-3: inc/classes/WC_OS_Order_Status.php\n"
+
+#: inc/classes/WC_OS_Order_Status.php:254
+#: inc/classes/WC_OS_Order_Status.php:321 inc/classes/WC_OS_Shipping.php:164
+#: inc/functions-inner.php:861 inc/functions-inner.php:2196
+#: inc/functions-inner.php:2245 inc/functions-inner.php:3205
+#: inc/functions.php:4848 inc/functions.php:4880 inc/functions.php:5251
+#: inc/functions.php:5273 inc/functions.php:5350 inc/functions.php:5677
+#: inc/functions.php:5706 inc/functions.php:5730 inc/functions.php:5848
+#: inc/functions.php:5866 inc/functions.php:9175 inc/functions.php:9279
+#: inc/functions.php:9314 inc/functions.php:9349 inc/functions.php:9746
+#: inc/functions.php:10473 inc/settings/coupons.php:8
+#: inc/settings/gravity-forms-meta-based.php:9 inc/wc_os_import_export.php:82
+#: inc/wc_os_import_export.php:113 inc/wc_os_import_export.php:137
+#: pro/wcos-pro.php:538 pro/wcos-pro.php:756 pro/wcos-pro.php:7703
+msgid "Sorry, your nonce did not verify."
+msgstr "Entschuldigung, Ihre Nonce hat nicht überprüft."
+
+#: inc/classes/WC_OS_Order_Status.php:282
+msgid "Order status updated."
+msgstr "Bestellstatus aktualisiert."
+
+#: inc/classes/WC_OS_Order_Status.php:282
+msgid "New order status added."
+msgstr "Neuer Bestellstatus hinzugefügt."
+
+#: inc/classes/WC_OS_Order_Status.php:345
+msgid "Order status updated from"
+msgstr "Bestellstatus aktualisiert von"
+
+#: inc/classes/WC_OS_Order_Status.php:345
+msgid "to"
+msgstr "zu"
+
+#: inc/classes/WC_OS_Order_Status.php:345
+msgid "because the former status was deleted."
+msgstr "weil der frühere Status gelöscht wurde."
+
+#: inc/classes/WC_OS_Order_Status.php:378
+msgid "Enter value to add new status"
+msgstr "Geben Sie einen Wert ein, um einen neuen Status hinzuzufügen"
+
+#: inc/classes/WC_OS_Order_Status.php:379
+msgid "Could not proceed your request. Please try again"
+msgstr "Ihre Anfrage konnte nicht fortgesetzt werden. Bitte versuche es erneut"
+
+#: inc/classes/WC_OS_Order_Status.php:593 inc/functions-inner.php:1810
+#: inc/functions-inner.php:2341 inc/functions-inner.php:2474
+#: inc/settings/vendor-user-role.php:222 inc/settings/vendor-user-terms.php:176
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: inc/classes/WC_OS_Order_Status.php:593 pro/wcos-pro.php:723
+msgid "Delete"
+msgstr "Löschen"
+
+#: inc/classes/WC_OS_Order_Status.php:597 inc/settings/general-settings.php:62
+#: inc/settings/general-settings.php:79 inc/settings/general-settings.php:85
+#: inc/settings/general-settings.php:91 inc/settings/general-settings.php:97
+#: inc/settings/general-settings.php:109 inc/settings/general-settings.php:217
+#: inc/settings/general-settings.php:223 inc/settings/general-settings.php:228
+#: inc/settings/general-settings.php:243 inc/settings/general-settings.php:249
+#: inc/settings/general-settings.php:255 inc/settings/general-settings.php:261
+#: inc/settings/general-settings.php:285 inc/settings/general-settings.php:291
+#: inc/settings/general-settings.php:303 inc/settings/general-settings.php:304
+#: inc/settings/general-settings.php:312 inc/settings/general-settings.php:313
+#: inc/settings/general-settings.php:314
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/classes/WC_OS_Order_Status.php:597 inc/settings/general-settings.php:62
+#: inc/settings/general-settings.php:79 inc/settings/general-settings.php:85
+#: inc/settings/general-settings.php:91 inc/settings/general-settings.php:97
+#: inc/settings/general-settings.php:109 inc/settings/general-settings.php:217
+#: inc/settings/general-settings.php:223 inc/settings/general-settings.php:228
+#: inc/settings/general-settings.php:243 inc/settings/general-settings.php:249
+#: inc/settings/general-settings.php:255 inc/settings/general-settings.php:261
+#: inc/settings/general-settings.php:285 inc/settings/general-settings.php:291
+#: inc/settings/general-settings.php:303 inc/settings/general-settings.php:304
+#: inc/settings/general-settings.php:312 inc/settings/general-settings.php:313
+#: inc/settings/general-settings.php:314
+msgid "No"
+msgstr "Nein"
+
+#: inc/classes/WC_OS_Order_Status.php:598
+msgid "core"
+msgstr "Ader"
+
+#: inc/classes/WC_OS_Order_Status.php:598
+msgid "custom"
+msgstr "Benutzerdefiniert"
+
+#: inc/classes/WC_OS_Order_Status.php:634 inc/wc_settings.php:96
+msgid "Order Statuses"
+msgstr "Bestellstatus"
+
+#: inc/classes/WC_OS_Order_Status.php:638
+#: inc/classes/WC_OS_Order_Status.php:738
+msgid "Add New"
+msgstr "Neue hinzufügen"
+
+#: inc/classes/WC_OS_Order_Status.php:641
+msgid "Show List"
+msgstr "Liste anzeigen"
+
+#: inc/classes/WC_OS_Order_Status.php:644 inc/functions.php:9415
+#: inc/functions.php:9453 inc/functions.php:9457
+#: inc/sections/advanced-settings.php:181
+#: inc/sections/advanced-settings.php:182 inc/settings/general-settings.php:211
+#: inc/settings/general-settings.php:249 inc/settings/general-settings.php:273
+msgid "Video Tutorial"
+msgstr "Videoanleitung"
+
+#: inc/classes/WC_OS_Order_Status.php:648
+msgid "Slug already in used please try a different name."
+msgstr "Slug bereits verwendet, bitte versuchen Sie einen anderen Namen."
+
+#: inc/classes/WC_OS_Order_Status.php:662
+msgid "Name"
+msgstr "Name"
+
+#: inc/classes/WC_OS_Order_Status.php:666
+msgid "Slug"
+msgstr "Schnecke"
+
+#: inc/classes/WC_OS_Order_Status.php:673
+#: inc/classes/WC_OS_Order_Status.php:722
+msgid "Paid"
+msgstr "Bezahlt"
+
+#: inc/classes/WC_OS_Order_Status.php:679
+msgid "Type"
+msgstr "Art"
+
+#: inc/classes/WC_OS_Order_Status.php:703
+msgid "Status Name"
+msgstr "Statusname"
+
+#: inc/classes/WC_OS_Order_Status.php:712
+msgid "Status Slug"
+msgstr "Status Slug"
+
+#: inc/classes/WC_OS_Order_Status.php:716
+msgid "Max Length 17"
+msgstr "Maximale Länge 17"
+
+#: inc/classes/WC_OS_Order_Status.php:726
+msgid "Orders with this status have been paid."
+msgstr "Bestellungen mit diesem Status wurden bezahlt."
+
+#: inc/classes/WC_OS_Order_Status.php:727
+msgid "Orders with this status require payment (similar to \"pending\")."
+msgstr ""
+"Bestellungen mit diesem Status müssen bezahlt werden (ähnlich wie "
+"\"Ausstehend\")."
+
+#: inc/classes/WC_OS_Order_Status.php:728
+msgid ""
+"Orders are neither paid nor require payment (similar to \"on-hold\" or "
+"\"refunded\")."
+msgstr ""
+"Bestellungen werden weder bezahlt noch müssen sie bezahlt werden (ähnlich "
+"wie \"in der Warteschleife\" oder \"erstattet\")."
+
+#: inc/classes/WC_OS_Order_Status.php:729
+msgid ""
+"Orders are paid but hidden, if you want to keep but do not want to show."
+msgstr ""
+"Bestellungen werden bezahlt, aber ausgeblendet, wenn Sie behalten möchten, "
+"aber nicht anzeigen möchten."
+
+#: inc/classes/WC_OS_Order_Status.php:741 pro/wcos-pro.php:688
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: inc/classes/WC_OS_Order_Status.php:778
+msgid "Delete Confirmation?"
+msgstr "Bestätigung löschen?"
+
+#: inc/classes/WC_OS_Order_Status.php:785
+msgid ""
+"After deletion of order status, all orders having this status will be "
+"changed to newly assigned status."
+msgstr ""
+"Nach dem Löschen des Auftragsstatus werden alle Aufträge mit diesem Status "
+"in den neu zugewiesenen Status geändert."
+
+#: inc/classes/WC_OS_Order_Status.php:793
+msgid "Chose assigned status "
+msgstr "Wählte den zugewiesenen Status "
+
+#: inc/classes/WC_OS_Order_Status.php:817
+msgid "Confirm delete & change status"
+msgstr "Bestätigen Sie den Lösch- und Änderungsstatus"
+
+#: inc/classes/WC_OS_Order_Status.php:820
+msgid "close"
+msgstr "schließen"
+
+#: inc/classes/WC_OS_Shipping.php:192
+msgid "All values should be greater than or equal to zero."
+msgstr "Alle Werte sollten größer oder gleich Null sein."
+
+#: inc/classes/WC_OS_Shipping.php:217
+msgid "No Shipping"
+msgstr "Kein Versand"
+
+#: inc/classes/WC_OS_Shipping.php:221
+msgid "Equal Shipping"
+msgstr "Gleicher Versand"
+
+#: inc/classes/WC_OS_Shipping.php:225
+msgid "Product Based Shipping Class"
+msgstr "Produktbasierte Versandklasse"
+
+#: inc/classes/WC_OS_Shipping.php:229
+msgid "Category Based Shipping Class"
+msgstr "Kategoriebasierte Versandklasse"
+
+#: inc/classes/WC_OS_Shipping.php:233
+msgid "Clone Shipping"
+msgstr "Klonversand"
+
+#: inc/classes/WC_OS_Shipping.php:237
+msgid "Order Total Based"
+msgstr "Gesamtbestellmenge"
+
+#: inc/classes/WC_OS_Shipping.php:241
+msgid "Other Shipping Compatibilities"
+msgstr "Andere Versandkompatibilitäten"
+
+#: inc/classes/WC_OS_Shipping.php:250
+msgid "Settings saved successfully."
+msgstr "Einstellungen erfolgreich gespeichert."
+
+#: inc/classes/WC_OS_Shipping.php:257
+msgid ""
+"Shipping cost will not be included in child orders if this option is "
+"selected."
+msgstr ""
+"Die Versandkosten sind bei untergeordneten Bestellungen nicht enthalten, "
+"wenn diese Option ausgewählt ist."
+
+#: inc/classes/WC_OS_Shipping.php:262 inc/functions-inner.php:2502
+#: inc/functions-inner.php:2891 inc/functions.php:9916 inc/functions.php:10103
+#: inc/sections/advanced-settings.php:138
+#: inc/sections/wc_os_email_section.php:108 inc/settings/coupons.php:24
+#: inc/settings/general-settings.php:467 inc/settings/general-settings.php:544
+#: inc/settings/general-settings.php:604 inc/settings/general-settings.php:622
+#: index.php:175
+msgid "Default"
+msgstr "Standard"
+
+#: inc/classes/WC_OS_Shipping.php:267
+msgid "No shipping cost for child orders"
+msgstr "Keine Versandkosten für Kinderbestellungen"
+
+#: inc/classes/WC_OS_Shipping.php:279
+msgid "Shipping cost will be divided equally among child orders."
+msgstr ""
+"Die Versandkosten werden zu gleichen Teilen auf die Bestellungen der Kinder "
+"aufgeteilt."
+
+#: inc/classes/WC_OS_Shipping.php:284
+msgid "Divide parent order shipping cost among child orders equally"
+msgstr ""
+"Verteilen Sie die Versandkosten für übergeordnete Bestellungen gleichmäßig "
+"auf untergeordnete Bestellungen"
+
+#: inc/classes/WC_OS_Shipping.php:292
+msgid ""
+"Shipping cost will be added as per selected shipping class in individual "
+"product."
+msgstr ""
+"Die Versandkosten werden gemäß der ausgewählten Versandklasse im einzelnen "
+"Produkt hinzugefügt."
+
+#: inc/classes/WC_OS_Shipping.php:297
+msgid "Add shipping cost as per shipping class selected for Product"
+msgstr ""
+"Versandkosten gemäß der für das Produkt ausgewählten Versandklasse hinzufügen"
+
+#: inc/classes/WC_OS_Shipping.php:302
+msgid ""
+"Assign a shipping class to a product under shipping section using Edit "
+"Product page."
+msgstr ""
+"Weisen Sie einem Produkt im Versandabschnitt über die Seite Produkt "
+"bearbeiten eine Versandklasse zu."
+
+#: inc/classes/WC_OS_Shipping.php:311
+msgid ""
+"Shipping cost will be added as per selected shipping class for a product "
+"category."
+msgstr ""
+"Die Versandkosten werden je nach ausgewählter Versandklasse für eine "
+"Produktkategorie hinzugefügt."
+
+#: inc/classes/WC_OS_Shipping.php:316
+msgid "Add shipping cost as per shipping class selected for a Category"
+msgstr ""
+"Versandkosten gemäß der für eine Kategorie ausgewählten Versandklasse "
+"hinzufügen"
+
+#: inc/classes/WC_OS_Shipping.php:323
+msgid "Assign a shipping class to a category using Edit Category page."
+msgstr ""
+"Weisen Sie auf der Seite Kategorie bearbeiten einer Kategorie eine "
+"Versandklasse zu."
+
+#: inc/classes/WC_OS_Shipping.php:332 inc/classes/WC_OS_Shipping.php:403
+msgid "Shipping cost will be cloned from parent order."
+msgstr "Die Versandkosten werden aus der übergeordneten Bestellung geklont."
+
+#: inc/classes/WC_OS_Shipping.php:337 inc/classes/WC_OS_Shipping.php:408
+msgid "Clone shipping cost from parent order"
+msgstr "Klonversandkosten aus übergeordneter Bestellung"
+
+#: inc/classes/WC_OS_Shipping.php:346
+msgid ""
+"Shipping cost will be added as per defined criteria according to the order "
+"total."
+msgstr ""
+"Die Versandkosten werden gemäß den definierten Kriterien entsprechend der "
+"Bestellsumme hinzugefügt."
+
+#: inc/classes/WC_OS_Shipping.php:351
+msgid "Apply shipping cost as per each order total"
+msgstr "Wenden Sie die Versandkosten für jede Bestellung an"
+
+#: inc/classes/WC_OS_Shipping.php:356
+msgid "Default Value (If no criteria matched)"
+msgstr "Standardwert (Wenn keine Kriterien übereinstimmen)"
+
+#: inc/classes/WC_OS_Shipping.php:361
+msgid "Define Criteria"
+msgstr "Kriterien definieren"
+
+#: inc/classes/WC_OS_Shipping.php:367
+msgid "Min total"
+msgstr "Min insgesamt"
+
+#: inc/classes/WC_OS_Shipping.php:371
+msgid "Max total"
+msgstr "Max total"
+
+#: inc/classes/WC_OS_Shipping.php:375
+msgid "Shipping Cost"
+msgstr "Versandkosten"
+
+#: inc/classes/WC_OS_Shipping.php:385
+msgid "Delete row"
+msgstr "Zeile löschen"
+
+#: inc/classes/WC_OS_Shipping.php:391
+msgid "Add row"
+msgstr "Zeile hinzufügen"
+
+#: inc/classes/WC_OS_Shipping.php:391 pro/wcos-pro.php:688
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: inc/classes/WC_OS_Shipping.php:413
+msgid "WooCommerce USPS Shipping - Installed"
+msgstr "WooCommerce USPS-Versand - installiert"
+
+#: inc/classes/WC_OS_Shipping.php:413
+msgid "WooCommerce USPS Shipping - Missing"
+msgstr "WooCommerce USPS-Versand - Fehlt"
+
+#: inc/classes/WC_OS_Shipping.php:423 inc/functions-inner.php:2808
+#: inc/functions-inner.php:3179 inc/functions.php:9709 inc/functions.php:10544
+#: inc/sections/advanced-settings.php:153
+#: inc/sections/advanced-settings.php:232 inc/sections/customization.php:148
+#: inc/sections/wc_os_email_section.php:137
+#: inc/sections/wc_os_email_section.php:265
+#: inc/sections/wc_os_email_section.php:344
+#: inc/settings/cat-qty-split-settings.php:151 inc/settings/coupons.php:30
+#: inc/settings/general-settings.php:697
+#: inc/settings/gravity-forms-meta-based.php:153
+#: inc/settings/grouped-cat-settings.php:137
+#: inc/settings/split-settings.php:431 inc/settings/vendor-user-role.php:273
+#: inc/settings/vendor-user-terms.php:231 pro/wcos-pro.php:822
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: inc/functions-inner.php:37
+msgid ""
+"Click here to manage order meta keys for each category group after split"
+msgstr ""
+"Klicken Sie hier, um die Auftrags-Metaschlüssel für jede Kategoriegruppe "
+"nach dem Teilen zu verwalten"
+
+#: inc/functions-inner.php:39
+msgid ""
+"You may select order meta keys to be cloned into child orders after split "
+"action. Select a group and allow/disallow meta keys from the following. "
+"Leave blank for all allowed."
+msgstr ""
+"Sie können Auftrags-Metaschlüssel auswählen, die nach der Aufteilungsaktion "
+"in untergeordnete Aufträge geklont werden sollen. Wählen Sie eine Gruppe aus "
+"und erlauben / verbieten Sie Metaschlüssel wie folgt. Leer lassen für alle "
+"erlaubt."
+
+#: inc/functions-inner.php:43
+msgid "Category Groups"
+msgstr "Kategoriegruppen"
+
+#: inc/functions-inner.php:43
+msgid "Active"
+msgstr "Aktiv"
+
+#: inc/functions-inner.php:60
+msgid "Available Order Meta Keys"
+msgstr "Verfügbare Auftrags-Metaschlüssel"
+
+#: inc/functions-inner.php:60
+msgid "Hold ctrl for multiple select"
+msgstr "Halten Sie die Strg-Taste gedrückt, um eine Mehrfachauswahl zu treffen"
+
+#: inc/functions-inner.php:64 inc/functions-inner.php:3077
+#: inc/functions-inner.php:3149 index.php:174 pro/wcos-pro.php:9112
+#: pro/wcos-pro.php:9136
+msgid "None"
+msgstr "Keiner"
+
+#: inc/functions-inner.php:71
+msgid "Line Item Meta"
+msgstr "Werbebuchung Meta"
+
+#: inc/functions-inner.php:82
+msgid "Shipping Items"
+msgstr "Versandartikel"
+
+#: inc/functions-inner.php:93
+msgid "Shipping Item Meta"
+msgstr "Versandartikel Meta"
+
+#: inc/functions-inner.php:104
+msgid "Order Meta"
+msgstr "Meta bestellen"
+
+#: inc/functions-inner.php:124
+msgid "Save Meta"
+msgstr "Meta speichern"
+
+#: inc/functions-inner.php:131
+msgid "Updated successfully."
+msgstr "Erfolgreich geupdated."
+
+#: inc/functions-inner.php:291 inc/settings/general-settings.php:206
+msgid "Confirm to split your order?"
+msgstr "Bestätigen Sie die Aufteilung Ihrer Bestellung?"
+
+#: inc/functions-inner.php:933
+msgid "Invalid Order ID"
+msgstr "Ungültige Bestell-ID"
+
+#: inc/functions-inner.php:1374
+msgid "order-"
+msgstr "Auftrag-"
+
+#: inc/functions-inner.php:1405 inc/functions.php:7086 inc/wos-emails.php:685
+#: inc/wos-emails.php:1194
+msgid "Order"
+msgstr "Auftrag"
+
+#: inc/functions-inner.php:1464
+msgid "Could not insert post into the database."
+msgstr "Beitrag konnte nicht in die Datenbank eingefügt werden."
+
+#: inc/functions-inner.php:1507
+msgid "Invalid post ID."
+msgstr "Ungültige Post-ID."
+
+#: inc/functions-inner.php:1528
+msgid "Could not update post in the database."
+msgstr "Beitrag in der Datenbank konnte nicht aktualisiert werden."
+
+#: inc/functions-inner.php:1745
+msgid "In"
+msgstr "Im"
+
+#: inc/functions-inner.php:1745
+msgid "Out"
+msgstr "aus"
+
+#: inc/functions-inner.php:1745
+msgid "N/A"
+msgstr "N / A"
+
+#: inc/functions-inner.php:1810 inc/functions-inner.php:2341
+#: inc/functions-inner.php:2474 inc/settings/vendor-user-role.php:222
+#: inc/settings/vendor-user-terms.php:176
+msgid "View"
+msgstr "Aussicht"
+
+#: inc/functions-inner.php:1933
+msgid "All listed and future attributes are included."
+msgstr "Alle aufgelisteten und zukünftigen Attribute sind enthalten."
+
+#: inc/functions-inner.php:1935
+msgid "Attribute"
+msgstr "Attribute"
+
+#: inc/functions-inner.php:1937 inc/functions-inner.php:2722
+msgid "Values"
+msgstr "Werte"
+
+#: inc/functions-inner.php:1940 inc/functions-inner.php:2102
+#: inc/settings/grouped-cat-settings.php:88 inc/settings/split-settings.php:372
+#: inc/settings/vendor-user-role.php:135 inc/settings/vendor-user-terms.php:86
+msgid "Split Group"
+msgstr "Gruppe teilen"
+
+#: inc/functions-inner.php:1942 inc/functions-inner.php:2104
+#: inc/settings/grouped-cat-settings.php:90 inc/settings/split-settings.php:374
+#: inc/settings/vendor-user-role.php:137 inc/settings/vendor-user-terms.php:88
+msgid "Group Status"
+msgstr "Gruppenstatus"
+
+#: inc/functions-inner.php:2095
+msgid "All listed and future order item meta are included."
+msgstr "Alle aufgeführten und zukünftigen Bestellartikel-Meta sind enthalten."
+
+#: inc/functions-inner.php:2097
+msgid "Meta Key"
+msgstr "Meta-Schlüssel"
+
+#: inc/functions-inner.php:2099
+msgid "Recorded Values"
+msgstr "Aufgezeichnete Werte"
+
+#: inc/functions-inner.php:2099
+msgid "for example purpose only"
+msgstr "nur zum beispiel zweck"
+
+#: inc/functions-inner.php:2264
+msgid "Items Per Page"
+msgstr "Artikel pro Seite"
+
+#: inc/functions-inner.php:2266 inc/settings/vendor-user-role.php:40
+msgid "All"
+msgstr "Alles"
+
+#: inc/functions-inner.php:2430
+msgid "Alphabetical"
+msgstr "Alphabetisch"
+
+#: inc/functions-inner.php:2450
+msgid "Categorial"
+msgstr "Kategorie"
+
+#: inc/functions-inner.php:2506 inc/functions-inner.php:2901
+#: inc/functions.php:9920 inc/functions.php:10107
+#: inc/settings/general-settings.php:471 inc/settings/general-settings.php:548
+#: inc/settings/general-settings.php:608 inc/settings/general-settings.php:626
+msgid "Change"
+msgstr "Austausch"
+
+#: inc/functions-inner.php:2515
+msgid "Package Title"
+msgstr "Pakettitel"
+
+#: inc/functions-inner.php:2515 inc/settings/cat-qty-split-settings.php:42
+#: inc/settings/cat-qty-split-settings.php:43
+#: inc/settings/cat-qty-split-settings.php:44
+msgid "Example"
+msgstr "Beispiel"
+
+#: inc/functions-inner.php:2515 inc/functions-inner.php:2517
+#: inc/sections/customization.php:131 pro/wcos-pro.php:6722
+#: pro/wcos-pro.php:6882
+msgid "Parcel #"
+msgstr "Paket #"
+
+#: inc/functions-inner.php:2521
+msgid "Backorder Automation"
+msgstr "Rückstandsautomatisierung"
+
+#: inc/functions-inner.php:2521 inc/settings/general-settings.php:10
+#: inc/settings/general-settings.php:23
+msgid "Optional"
+msgstr "Optional"
+
+#: inc/functions-inner.php:2521
+msgid "Split again and whenever stock is available."
+msgstr "Split wieder und wann immer Vorrat verfügbar ist."
+
+#: inc/functions-inner.php:2524
+msgid "Click here to see backorder automation in action"
+msgstr "Klicken Sie hier, um die Rückstandsautomatisierung in Aktion zu sehen"
+
+#: inc/functions-inner.php:2689
+msgid ""
+"On checkout, parcels will be formed by the items with the identical values "
+"found against the selected field"
+msgstr ""
+"Beim Auschecken werden Pakete aus den Elementen mit den identischen Werten "
+"gebildet, die für das ausgewählte Feld gefunden wurden"
+
+#: inc/functions-inner.php:2691
+msgid "among cart items."
+msgstr "unter Warenkorbartikeln."
+
+#: inc/functions-inner.php:2706
+msgid ""
+"Warning! This group of fields do not belong to the WooCommerce Products."
+msgstr ""
+"Warnung! Diese Gruppe von Feldern gehört nicht zu den WooCommerce-Produkten."
+
+#: inc/functions-inner.php:2720
+msgid "Field Name"
+msgstr "Feldname"
+
+#: inc/functions-inner.php:2771
+msgid "Values not found"
+msgstr "Werte nicht gefunden"
+
+#: inc/functions-inner.php:2820
+msgid ""
+"No ACF group selected, please select groups from method selection to display "
+"fields."
+msgstr ""
+"Keine ACF-Gruppe ausgewählt. Bitte wählen Sie Gruppen aus der "
+"Methodenauswahl aus, um Felder anzuzeigen."
+
+#: inc/functions-inner.php:2820 inc/functions.php:9723
+msgid "Screen Options"
+msgstr "Bildschirmoptionen"
+
+#: inc/functions-inner.php:2822
+msgid "Click here to select groups"
+msgstr "Klicken Sie hier, um Gruppen auszuwählen"
+
+#: inc/functions-inner.php:3066 inc/sections/customization.php:137
+#: pro/wcos-pro.php:714
+msgid "Note"
+msgstr "Hinweis"
+
+#: inc/functions-inner.php:3068
+msgid ""
+"After successfully order split all bookings will be attached to child orders "
+"and detached from parent order items"
+msgstr ""
+"Nach erfolgreicher Aufteilung der Bestellungen werden alle Buchungen an "
+"untergeordnete Bestellungen angehängt und von den übergeordneten "
+"Bestellpositionen getrennt"
+
+#: inc/functions-inner.php:3084
+msgid "Split all"
+msgstr "Teile alles auf"
+
+#: inc/functions-inner.php:3091
+msgid "Group by"
+msgstr "Gruppiere nach"
+
+#: inc/functions-inner.php:3102
+msgid "Booking Date"
+msgstr "Buchungsdatum"
+
+#: inc/functions-inner.php:3107
+msgid "Day"
+msgstr "Tag"
+
+#: inc/functions-inner.php:3114
+msgid "Month"
+msgstr "Monat"
+
+#: inc/functions-inner.php:3121
+msgid "Year"
+msgstr "Jahr"
+
+#: inc/functions-inner.php:3126
+msgid "Split note"
+msgstr "Split Note"
+
+#: inc/functions-inner.php:3141
+msgid "And"
+msgstr "Und"
+
+#: inc/functions-inner.php:3145
+msgid "Payment Type"
+msgstr "Zahlungsart"
+
+#: inc/functions-inner.php:3156
+msgid "Full Payment"
+msgstr "Vollständige Zahlung"
+
+#: inc/functions-inner.php:3163 pro/wcos-pro.php:8611
+msgid "Partial Payment"
+msgstr "Teilzahlung"
+
+#: inc/functions-inner.php:3244
+msgid "No products found"
+msgstr "Keine Produkte gefunden"
+
+#: inc/functions.php:120
+msgid "Combined Order"
+msgstr "Kombinierte Bestellung"
+
+#: inc/functions.php:120 inc/functions.php:129 inc/functions.php:168
+#: inc/functions.php:3148
+msgid "Parent Order"
+msgstr "Elternordnung"
+
+#: inc/functions.php:158
+msgid "Items Count"
+msgstr "Artikelanzahl"
+
+#: inc/functions.php:163
+msgid "Split From"
+msgstr "Trennung von"
+
+#: inc/functions.php:186
+msgid "You do not have permission to complete this action."
+msgstr "Sie haben keine Berechtigung, diese Aktion auszuführen."
+
+#: inc/functions.php:192
+msgid "You have to be logged in to complete this action"
+msgstr "Sie müssen angemeldet sein, um diese Aktion ausführen zu können"
+
+#: inc/functions.php:244
+msgid "You do not have permission to complete this action..."
+msgstr "Sie haben keine Berechtigung, diese Aktion auszuführen ..."
+
+#: inc/functions.php:250
+msgid "You have to be logged-in to complete this action."
+msgstr "Sie müssen angemeldet sein, um diese Aktion abzuschließen."
+
+#: inc/functions.php:3785
+msgid "Cloned Order from"
+msgstr "Geklonte Bestellung von"
+
+#: inc/functions.php:4485
+msgid "Order has been updated successfully."
+msgstr "Bestellung wurde erfolgreich aktualisiert."
+
+#: inc/functions.php:4494
+msgid "Order Splitted."
+msgstr "Bestellung aufgeteilt."
+
+#: inc/functions.php:4506
+msgid "Consolidation Failed an error has occurred."
+msgstr "Konsolidierung fehlgeschlagen Ein Fehler ist aufgetreten."
+
+#: inc/functions.php:4513
+msgid "Duplication Failed an error has occurred."
+msgstr "Duplizierung fehlgeschlagen Ein Fehler ist aufgetreten."
+
+#: inc/functions.php:4521
+msgid "Split Failed an error has occurred."
+msgstr "Split Failed ist ein Fehler aufgetreten."
+
+#: inc/functions.php:5912 inc/wc_settings.php:5
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+"Sie haben nicht genügend Berechtigungen, um auf diese Seite zuzugreifen."
+
+#: inc/functions.php:5937 inc/wc_settings.php:74
+msgid "Settings"
+msgstr "die Einstellungen"
+
+#: inc/functions.php:5944 inc/wc_settings.php:74 inc/wc_settings.php:138
+#: inc/wc_settings.php:150
+msgid "Go Premium"
+msgstr "Gehen Sie Premium"
+
+#: inc/functions.php:6843 inc/functions.php:7043
+#: inc/sections/wc_os_email_section.php:182
+#: inc/sections/wc_os_email_section.php:183
+msgid "Order number"
+msgstr "Bestellnummer"
+
+#: inc/functions.php:7047 pro/wcos-pro.php:8601
+msgid "Date"
+msgstr "Datiert"
+
+#: inc/functions.php:7052 inc/functions.php:7162 inc/functions.php:7231
+#: pro/wcos-pro.php:8614
+msgid "Total"
+msgstr "Gesamt"
+
+#: inc/functions.php:7086 inc/settings/general-settings.php:451
+msgid "Orders"
+msgstr "Aufträge"
+
+#: inc/functions.php:7122
+msgid "includes"
+msgstr "beinhaltet"
+
+#: inc/functions.php:7161
+msgid "Product"
+msgstr "Produkt"
+
+#: inc/functions.php:7188 pro/wcos-pro.php:6803 pro/wcos-pro.php:6811
+msgid "Vendor"
+msgstr "Verkäufer"
+
+#: inc/functions.php:7208
+msgid "Shipment"
+msgstr "Sendung"
+
+#: inc/functions.php:7220
+msgid "Payment method"
+msgstr "Bezahlverfahren"
+
+#: inc/functions.php:7246
+msgid "Order Total"
+msgstr "Auftragssumme"
+
+#: inc/functions.php:7247
+msgid "Amount"
+msgstr "Menge"
+
+#: inc/functions.php:7256
+msgid "Total amount charged to billing method"
+msgstr "Gesamtbetrag, der der Abrechnungsmethode belastet wird"
+
+#: inc/functions.php:7893 inc/functions.php:7903 inc/functions.php:7916
+#: inc/wos-emails.php:221 inc/wos-emails.php:231
+msgid "Success"
+msgstr "Erfolg"
+
+#: inc/functions.php:7893 inc/functions.php:7903 inc/functions.php:7916
+#: inc/wos-emails.php:221 inc/wos-emails.php:231
+msgid "Failed"
+msgstr "Gescheitert"
+
+#: inc/functions.php:7893
+msgid "Vendor Email"
+msgstr "Hersteller-E-Mail"
+
+#: inc/functions.php:7903
+msgid "Billing Email"
+msgstr "Abrechnung per E-Mail"
+
+#: inc/functions.php:7916
+msgid "Registered Email"
+msgstr "Registrierte Email"
+
+#: inc/functions.php:8086
+msgid "Following product/items are configured with different split actions."
+msgstr ""
+"Folgende Produkte / Artikel werden mit verschiedenen Split-Aktionen "
+"konfiguriert."
+
+#: inc/functions.php:8086
+msgid "Select one of these split actions to proceed for this order."
+msgstr ""
+"Wählen Sie eine dieser Aufteilungsaktionen aus, um mit dieser Bestellung "
+"fortzufahren."
+
+#: inc/functions.php:8108
+msgid "This option will not work with Auto Split."
+msgstr "Diese Option funktioniert nicht mit Auto Split."
+
+#: inc/functions.php:8112
+msgid "Are you sure, you want delete this rule?"
+msgstr "Sind Sie sicher, dass Sie diese Regel löschen möchten?"
+
+#: inc/functions.php:8115
+msgid ""
+"Manual split from order page will not follow the split rules which you "
+"defined on the settings page. Here you split with the manual selection."
+msgstr ""
+"Die manuelle Aufteilung von der Bestellseite folgt nicht den "
+"Aufteilungsregeln, die Sie auf der Einstellungsseite definiert haben. Hier "
+"splitten Sie mit der manuellen Auswahl."
+
+#: inc/functions.php:8116
+msgid "Split with the rules > Orders list page and the following icon"
+msgstr ""
+"Teilen Sie mit der Seite Regeln > Auftragsliste und dem folgenden Symbol"
+
+#: inc/functions.php:8122
+msgid "Click here to mark this item as parent/main order during this action"
+msgstr ""
+"Klicken Sie hier, um diesen Artikel während dieser Aktion als "
+"übergeordnete / Hauptbestellung zu markieren"
+
+#: inc/functions.php:8162
+msgid "All booking items will be grouped by same date"
+msgstr "Alle Buchungsgegenstände werden nach demselben Datum gruppiert"
+
+#: inc/functions.php:8163
+msgid "All booking items will be grouped by same month"
+msgstr "Alle Buchungsgegenstände werden nach demselben Monat gruppiert"
+
+#: inc/functions.php:8164
+msgid "All booking items will be grouped by same year"
+msgstr "Alle Buchungsgegenstände werden nach demselben Jahr gruppiert"
+
+#: inc/functions.php:8165
+msgid "All booking items will be grouped by same day and month"
+msgstr "Alle Buchungsgegenstände werden nach demselben Tag und Monat gruppiert"
+
+#: inc/functions.php:8166
+msgid "All booking items will be grouped by same day and year"
+msgstr "Alle Buchungsgegenstände werden nach demselben Tag und Jahr gruppiert"
+
+#: inc/functions.php:8167
+msgid "All booking items will be grouped by same month and year"
+msgstr ""
+"Alle Buchungsgegenstände werden nach demselben Monat und Jahr gruppiert"
+
+#: inc/functions.php:8183
+msgid "Change status to pending"
+msgstr "Ändern Sie den Status in Ausstehend"
+
+#: inc/functions.php:8184
+msgid "Change status to cancelled"
+msgstr "Ändern Sie den Status in abgebrochen"
+
+#: inc/functions.php:8185
+msgid "Force Restore"
+msgstr "Wiederherstellung erzwingen"
+
+#: inc/functions.php:8186
+msgid "Clone Orders"
+msgstr "Bestellungen klonen"
+
+#: inc/functions.php:8187
+msgid "Split Orders"
+msgstr "Geteilte Bestellungen"
+
+#: inc/functions.php:8188
+msgid "Consolidate/Combine/Merge Orders"
+msgstr "Aufträge konsolidieren / kombinieren / zusammenführen"
+
+#: inc/functions.php:8189
+msgid "Mark"
+msgstr "Kennzeichen"
+
+#: inc/functions.php:8463 inc/settings/coupons.php:25
+msgid "Clone"
+msgstr "Klon"
+
+#: inc/functions.php:8479 inc/settings/general-settings.php:50
+#: inc/settings/general-settings.php:451
+msgid "Split"
+msgstr "Teilt"
+
+#: inc/functions.php:8547 inc/functions.php:8694
+msgid "Split Order"
+msgstr "Geteilte Reihenfolge"
+
+#: inc/functions.php:8706
+msgid "Clone Order"
+msgstr "Klonreihenfolge"
+
+#: inc/functions.php:8715
+msgid "Conflict Alert!"
+msgstr "Konfliktalarm!"
+
+#: inc/functions.php:8964
+msgid "Page"
+msgstr "Seite"
+
+#: inc/functions.php:9288
+msgid "Order log removed!"
+msgstr "Bestellprotokoll entfernt!"
+
+#: inc/functions.php:9380
+msgid "Default (All qty. to x1) - Video Tutorial"
+msgstr "Standard (Alle Mengen bis x1) - Video-Tutorial"
+
+#: inc/functions.php:9380
+msgid "Custom (Split only defined values) - Video Tutorial"
+msgstr "Benutzerdefiniert (Nur definierte Werte teilen) - Video-Tutorial"
+
+#: inc/functions.php:9380
+msgid "Eric (Selected + Defined values) - Video Tutorial"
+msgstr "Eric (Ausgewählte + Definierte Werte) - Video-Tutorial"
+
+#: inc/functions.php:9384
+msgid "Default (All qty. to x1)"
+msgstr "Standard (Alle Mengen bis x1)"
+
+#: inc/functions.php:9386
+msgid "Custom (Split only defined values)"
+msgstr "Benutzerdefiniert (Nur definierte Werte teilen)"
+
+#: inc/functions.php:9388
+msgid "Eric Logic (Selected+Defined items/quantity into new order)"
+msgstr ""
+"Eric Logic (Ausgewählte + Definierte Artikel / Menge in neue Bestellung)"
+
+#: inc/functions.php:9453
+msgid "Product Based"
+msgstr "Produktbasiert"
+
+#: inc/functions.php:9593
+msgid "Select ACF Groups to show fields"
+msgstr "Wählen Sie ACF-Gruppen aus, um Felder anzuzeigen"
+
+#: inc/functions.php:9619
+msgid "No ACF group found "
+msgstr "Keine ACF-Gruppe gefunden "
+
+#: inc/functions.php:9620 inc/wc_os_import_export.php:203 inc/wos-emails.php:48
+#: inc/wos-emails.php:129 index.php:106
+msgid "Click here"
+msgstr "Klicke hier"
+
+#: inc/functions.php:9620
+msgid "to create new ACF group"
+msgstr "um eine neue ACF-Gruppe zu erstellen"
+
+#: inc/functions.php:9673
+msgid "Split Settings (ON/OFF)"
+msgstr "Geteilte Einstellungen (EIN / AUS)"
+
+#: inc/functions.php:9830
+msgid "Inclusive parcel status after split"
+msgstr "Inklusive Paketstatus nach Split"
+
+#: inc/functions.php:9834
+msgid "Remaining parcel status after split"
+msgstr "Verbleibender Paketstatus nach dem Teilen"
+
+#: inc/functions.php:10508 inc/functions.php:10955
+#: inc/sections/advanced-settings.php:184 inc/settings/general-settings.php:309
+#: inc/settings/split-settings.php:194
+msgid "How it works?"
+msgstr "Wie es funktioniert?"
+
+#: inc/functions.php:10587
+msgid "Order Created Date"
+msgstr "Erstellungsdatum der Bestellung"
+
+#: inc/functions.php:10588
+msgid "Progressive Order Delivery Date + Interval"
+msgstr "Progressiver Liefertermin + Intervall"
+
+#: inc/functions.php:10589
+msgid "Order Created Date + Weekday Interval"
+msgstr "Erstellungsdatum der Bestellung + Wochentagintervall"
+
+#: inc/functions.php:10590
+msgid "Progressive Order Delivery Date + Weekday Interval"
+msgstr "Progressiver Liefertermin + Wochentag-Intervall"
+
+#: inc/functions.php:10591
+msgid "Progressive Order Delivery Date selected by Customer (Checkout Page)"
+msgstr ""
+"Vom Kunden ausgewähltes Lieferdatum für progressive Bestellung (Checkout-"
+"Seite)"
+
+#: inc/functions.php:10597
+msgid "First Order Delivery"
+msgstr "Lieferung der ersten Bestellung"
+
+#: inc/functions.php:10604
+msgid "Remaining Items Delivery"
+msgstr "Restposten Lieferung"
+
+#: inc/functions.php:10605
+msgid "Same as First Order"
+msgstr "Wie bei Erstbestellung"
+
+#: inc/functions.php:10632
+msgid "Select delivery interval type"
+msgstr "Wählen Sie den Lieferintervalltyp"
+
+#: inc/functions.php:10674
+msgid "Weekday Interval"
+msgstr "Wochentag-Intervall"
+
+#: inc/functions.php:10681
+msgid "Select Weekdays"
+msgstr "Wählen Sie Wochentage"
+
+#: inc/functions.php:10701
+msgid "Days Interval"
+msgstr "Tage Intervall"
+
+#: inc/functions.php:10948
+msgid "View order"
+msgstr "Bestellung ansehen"
+
+#: inc/functions.php:10961
+msgid "Bulk edit/combine features are available only in"
+msgstr "Massenbearbeitungs-/Kombinationsfunktionen sind nur in verfügbar"
+
+#: inc/functions.php:10961
+msgid "Premium Version"
+msgstr "Premium-Version"
+
+#: inc/functions.php:10961
+msgid ""
+"You may use another WordPress Plugin by the same Plugin Author to combine "
+"the orders"
+msgstr ""
+"Sie können ein anderes WordPress-Plugin desselben Plugin-Autors verwenden, "
+"um die Bestellungen zu kombinieren"
+
+#: inc/functions.php:10961
+msgid "Ultimate Order Combination"
+msgstr ""
+
+#: inc/functions.php:10961
+msgid "Click here for details"
+msgstr "Hier klicken für Details"
+
+#: inc/sections/advanced-settings.php:7
+msgid "Rules"
+msgstr "Regeln"
+
+#: inc/sections/advanced-settings.php:13
+msgid "Troubleshoot"
+msgstr "Fehlerbehebung"
+
+#: inc/sections/advanced-settings.php:19
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: inc/sections/advanced-settings.php:21
+msgid "Cron Jobs / Action Hooks"
+msgstr "Cron Jobs / Action Hooks"
+
+#: inc/sections/advanced-settings.php:25
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: inc/sections/advanced-settings.php:27
+msgid "Speed Optimization"
+msgstr "Geschwindigkeitsoptimierung"
+
+#: inc/sections/advanced-settings.php:62 inc/sections/advanced-settings.php:63
+#: inc/settings/general-settings.php:322 inc/settings/general-settings.php:326
+#: pro/wcos-pro.php:562 pro/wcos-pro.php:563
+msgid "Watch Video Tutorial"
+msgstr "Video-Tutorial ansehen"
+
+#: inc/sections/advanced-settings.php:69
+msgid "This is a premium feature."
+msgstr "Dies ist eine Premium-Funktion."
+
+#: inc/sections/advanced-settings.php:91
+msgid "Order ID"
+msgstr "Auftragsnummer"
+
+#: inc/sections/advanced-settings.php:93
+msgid "Test"
+msgstr "Prüfung"
+
+#: inc/sections/advanced-settings.php:114
+msgid ""
+"You may turn Cron Jobs ON for WooCommerce Orders List Page as well, find the "
+"checkbox on settings page."
+msgstr ""
+"Sie können Cron-Jobs auch für die WooCommerce-Bestelllistenseite aktivieren. "
+"Suchen Sie das Kontrollkästchen auf der Einstellungsseite."
+
+#: inc/sections/advanced-settings.php:118
+msgid ""
+"In case your theme is not landing on woocommerce_thankyou so you can try the "
+"following options:"
+msgstr ""
+"Falls Ihr Thema nicht auf woocommerce_thankyou landet, können Sie die "
+"folgenden Optionen ausprobieren:"
+
+#: inc/sections/advanced-settings.php:120
+msgid "OR"
+msgstr "ODER"
+
+#: inc/sections/advanced-settings.php:135
+msgid ""
+"By default, following action hook is in use but you can turn ON more hooks "
+"according to your requirement."
+msgstr ""
+"Standardmäßig wird der folgende Aktionshaken verwendet, Sie können jedoch je "
+"nach Anforderung weitere Haken aktivieren."
+
+#: inc/sections/advanced-settings.php:139
+msgid "Priority"
+msgstr "Priorität"
+
+#: inc/sections/advanced-settings.php:149
+msgid "Recommendation:"
+msgstr "Empfehlung:"
+
+#: inc/sections/advanced-settings.php:149
+msgid ""
+"Do not use all of above action hooks together. Try one at a time, multiple "
+"selection can lead towards unexpected outcomes."
+msgstr ""
+"Verwenden Sie nicht alle oben genannten Aktionshaken zusammen. Versuchen Sie "
+"es nacheinander. Eine Mehrfachauswahl kann zu unerwarteten Ergebnissen "
+"führen."
+
+#: inc/sections/advanced-settings.php:165
+msgid "Plugin options and related topics:"
+msgstr "Plugin-Optionen und verwandte Themen:"
+
+#: inc/sections/advanced-settings.php:168 inc/settings/general-settings.php:109
+msgid "Hide Parent Order on Thank You Page after Split?"
+msgstr "Elternauftrag auf Dankesseite nach Split ausblenden?"
+
+#: inc/sections/advanced-settings.php:170
+msgid "Hide parent order excluding selected products?"
+msgstr "Übergeordnete Bestellung ohne ausgewählte Produkte ausblenden?"
+
+#: inc/sections/advanced-settings.php:171
+msgid "Hide parent order / force display for a product"
+msgstr ""
+"Übergeordnete Bestellung ausblenden / Anzeige für ein Produkt erzwingen"
+
+#: inc/sections/advanced-settings.php:178
+msgid "Following plugins are tested and ensured compatibility:"
+msgstr ""
+"Folgende Plugins werden getestet und die Kompatibilität sichergestellt:"
+
+#: inc/sections/advanced-settings.php:181
+msgid "PDF"
+msgstr "PDF"
+
+#: inc/sections/advanced-settings.php:181
+#: inc/sections/advanced-settings.php:182
+msgid "Screenshot"
+msgstr "Bildschirmfoto"
+
+#: inc/sections/advanced-settings.php:183
+msgid "Triggering Translated Email"
+msgstr "Auslösen übersetzter E-Mails"
+
+#: inc/sections/advanced-settings.php:189
+msgid "Following meta keys can be retrieved from split orders:"
+msgstr ""
+"Folgende Meta-Schlüssel können aus geteilten Bestellungen abgerufen werden:"
+
+#: inc/sections/advanced-settings.php:191
+msgid "Alphabetical group name in which items were splitted on checkout."
+msgstr ""
+"Alphabetischer Gruppenname, in den die Artikel an der Kasse aufgeteilt "
+"wurden."
+
+#: inc/sections/advanced-settings.php:213
+msgid "Use minified Javascript"
+msgstr "Verwenden Sie minimiertes Javascript"
+
+#: inc/sections/advanced-settings.php:222
+msgid "Use minified CSS"
+msgstr "Verwenden Sie minimiertes CSS"
+
+#: inc/sections/customization.php:12
+msgid "WooCommerce Notices"
+msgstr "WooCommerce-Hinweise"
+
+#: inc/sections/customization.php:14
+msgid "Split Methods Labels"
+msgstr "Geteilte Methodenbezeichnungen"
+
+#: inc/sections/customization.php:16
+msgid "Packages/Parcels"
+msgstr "Pakete / Pakete"
+
+#: inc/sections/customization.php:27
+msgid "WooCommerce Notices:"
+msgstr "WooCommerce Hinweise:"
+
+#: inc/sections/customization.php:35
+msgid "Shop page notice"
+msgstr "Shop Seite Hinweis"
+
+#: inc/sections/customization.php:37
+msgid "Product page notice"
+msgstr "Hinweis zur Produktseite"
+
+#: inc/sections/customization.php:39
+msgid "Cart page notice"
+msgstr "Warenkorb Seite Hinweis"
+
+#: inc/sections/customization.php:41
+msgid "Checkout page notice"
+msgstr "Hinweis zur Kasse"
+
+#: inc/sections/customization.php:43
+msgid "Thankyou page notice"
+msgstr "Vielen Dank Seite Hinweis"
+
+#: inc/sections/customization.php:49
+msgid "Note: Keep these fields empty to disable."
+msgstr "Hinweis: Lassen Sie diese Felder leer, um sie zu deaktivieren."
+
+#: inc/sections/customization.php:55
+msgid "Notices Styles:"
+msgstr "Hinweise Stile:"
+
+#: inc/sections/customization.php:77
+msgid ""
+"You can change the label and/or description for each split action(Products):"
+msgstr ""
+"Sie können die Bezeichnung und / oder Beschreibung für jede Teilungsaktion "
+"(Produkte) ändern:"
+
+#: inc/sections/customization.php:107
+msgid ""
+"Note: It is for your convenience only. It will not change the functionality "
+"in any aspect."
+msgstr ""
+"Hinweis: Dies dient nur Ihrer Bequemlichkeit. Die Funktionalität wird in "
+"keiner Hinsicht geändert."
+
+#: inc/sections/customization.php:129 pro/wcos-pro.php:6497
+msgid "Distribution of items in packages"
+msgstr "Verteilung von Artikeln in Paketen"
+
+#: inc/sections/customization.php:137
+msgid "These labels will appear on the checkout page."
+msgstr "Diese Beschriftungen werden auf der Checkout-Seite angezeigt."
+
+#: inc/sections/logger.php:9 inc/sections/logger.php:24
+msgid "Email Log"
+msgstr "E-Mail-Protokoll"
+
+#: inc/sections/logger.php:11 inc/sections/logger.php:64
+msgid "Removed Order Log"
+msgstr "Auftragsprotokoll entfernt"
+
+#: inc/sections/logger.php:13
+msgid "Debug Log"
+msgstr "Austestungsprotokoll"
+
+#: inc/sections/logger.php:15
+msgid "Enable/Disable Email Log"
+msgstr "E-Mail-Protokoll aktivieren / deaktivieren"
+
+#: inc/sections/logger.php:16
+msgid "Enable/Disable Order Log"
+msgstr "Auftragsprotokoll aktivieren / deaktivieren"
+
+#: inc/sections/logger.php:26
+msgid "Clear Email Log"
+msgstr "E-Mail-Protokoll löschen"
+
+#: inc/sections/logger.php:66
+msgid "Clear Order Log"
+msgstr "Auftragsprotokoll löschen"
+
+#: inc/sections/logger.php:136
+msgid "Debug Log (Custom Path)"
+msgstr "Debug-Protokoll (benutzerdefinierter Pfad)"
+
+#: inc/sections/logger.php:153
+msgid "Debug Log (Default)"
+msgstr "Debug-Protokoll (Standard)"
+
+#: inc/sections/logger.php:169
+msgid "Debug Log file not found."
+msgstr "Debug-Protokolldatei nicht gefunden."
+
+#: inc/sections/logger.php:181
+msgid "Error Log (Default)"
+msgstr "Fehlerprotokoll (Standard)"
+
+#: inc/sections/logger.php:188
+msgid "Error Log file not found."
+msgstr "Fehlerprotokolldatei nicht gefunden."
+
+#: inc/sections/logger.php:196
+msgid "DEBUG CONSTANTS"
+msgstr "DEBUG-KONSTANTEN"
+
+#: inc/sections/wc_os_email_section.php:24
+msgid "ON/OFF"
+msgstr "AN AUS"
+
+#: inc/sections/wc_os_email_section.php:25
+msgid "Placeholders"
+msgstr "Platzhalter"
+
+#: inc/sections/wc_os_email_section.php:26
+#: inc/sections/wc_os_email_section.php:288
+msgid "SMTP Settings"
+msgstr "SMTP-Einstellungen"
+
+#: inc/sections/wc_os_email_section.php:27
+#: inc/sections/wc_os_email_section.php:413
+msgid "Test Email"
+msgstr "E-Mail-Test"
+
+#: inc/sections/wc_os_email_section.php:28
+msgid "Default Emails"
+msgstr "Standard-E-Mails"
+
+#: inc/sections/wc_os_email_section.php:45
+msgid "ON/OFF Settings"
+msgstr "EIN / AUS-Einstellungen"
+
+#: inc/sections/wc_os_email_section.php:52
+msgid "Do not send parent order email to anyone"
+msgstr "Senden Sie keine E-Mails mit übergeordneten Bestellungen an Dritte"
+
+#: inc/sections/wc_os_email_section.php:52
+msgid "If order splitted, normal order will get emails"
+msgstr ""
+"Wenn die Bestellung aufgeteilt wird, erhält die normale Bestellung E-Mails"
+
+#: inc/sections/wc_os_email_section.php:57
+msgid "Send email notifications to customer"
+msgstr "Senden Sie E-Mail-Benachrichtigungen an den Kunden"
+
+#: inc/sections/wc_os_email_section.php:62
+msgid "Orders Combined"
+msgstr "Bestellungen kombiniert"
+
+#: inc/sections/wc_os_email_section.php:68
+msgid "Orders Splitted Summary"
+msgstr "Auftragsaufteilung Zusammenfassung"
+
+#: inc/sections/wc_os_email_section.php:73
+#: inc/sections/wc_os_email_section.php:83
+#: inc/sections/wc_os_email_section.php:107
+#: inc/sections/wc_os_email_section.php:121
+msgid "New Orders Created After Split"
+msgstr "Neue Aufträge nach dem Teilen erstellt"
+
+#: inc/sections/wc_os_email_section.php:78
+msgid "Send email notifications to admin"
+msgstr "Senden Sie E-Mail-Benachrichtigungen an den Administrator"
+
+#: inc/sections/wc_os_email_section.php:95
+msgid "Send email notifications to Vendor"
+msgstr "Senden Sie E-Mail-Benachrichtigungen an den Anbieter"
+
+#: inc/sections/wc_os_email_section.php:95
+msgid "Group by Vendors Selected?"
+msgstr "Gruppe nach Anbietern ausgewählt?"
+
+#: inc/sections/wc_os_email_section.php:125
+msgid "Vendor should get emails instead of admin?"
+msgstr "Anbieter sollte E-Mails anstelle von Admin erhalten?"
+
+#: inc/sections/wc_os_email_section.php:174
+msgid "Child Order Page Labels:"
+msgstr "Etiketten für untergeordnete Bestellseiten:"
+
+#: inc/sections/wc_os_email_section.php:180
+msgid "Child Order"
+msgstr "Kinderordnung"
+
+#: inc/sections/wc_os_email_section.php:183
+msgid "Item Meta Example"
+msgstr "Artikel-Meta-Beispiel"
+
+#: inc/sections/wc_os_email_section.php:187
+msgid "Orders Grand Total Display"
+msgstr "Bestellungen Gesamtsumme Anzeige"
+
+#: inc/sections/wc_os_email_section.php:191
+#: inc/sections/wc_os_email_section.php:245
+msgid "Note: Keep these fields empty to work with default values."
+msgstr ""
+"Hinweis: Lassen Sie diese Felder leer, um mit Standardwerten zu arbeiten."
+
+#: inc/sections/wc_os_email_section.php:197
+msgid "Child Order Emails Text:"
+msgstr "E-Mails zur Kinderbestellung Text:"
+
+#: inc/sections/wc_os_email_section.php:207
+msgid "Email From Name:"
+msgstr "E-Mail vom Namen:"
+
+#: inc/sections/wc_os_email_section.php:215
+msgid "Email From Email:"
+msgstr "E-Mail von E-Mail:"
+
+#: inc/sections/wc_os_email_section.php:223
+msgid "Email ReplyTo Email:"
+msgstr "E-Mail Antwort an E-Mail:"
+
+#: inc/sections/wc_os_email_section.php:231
+msgid "Email Subject:"
+msgstr "E-Mail Betreff:"
+
+#: inc/sections/wc_os_email_section.php:231
+msgid "Order# ORDER_ID splitted into ORDER_COUNT new order(s)"
+msgstr "Bestellnummer ORDER_ID aufgeteilt in ORDER_COUNT neue Bestellung (en)"
+
+#: inc/sections/wc_os_email_section.php:239
+msgid "Email Body:"
+msgstr "Nachrichtentext:"
+
+#: inc/sections/wc_os_email_section.php:239
+msgid "ORDERS_TABLE"
+msgstr "ORDERS_TABLE"
+
+#: inc/sections/wc_os_email_section.php:249
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: inc/sections/wc_os_email_section.php:300
+msgid "Turn SMTP"
+msgstr "Schalten Sie SMTP ein"
+
+#: inc/sections/wc_os_email_section.php:300
+msgid "ON"
+msgstr "AUF"
+
+#: inc/sections/wc_os_email_section.php:300
+msgid "OFF"
+msgstr "AUS"
+
+#: inc/sections/wc_os_email_section.php:307
+#: inc/sections/wc_os_email_section.php:309
+msgid "SMTP Host"
+msgstr "SMTP-Host"
+
+#: inc/sections/wc_os_email_section.php:311
+msgid "Your mail server"
+msgstr "Ihr Mailserver"
+
+#: inc/sections/wc_os_email_section.php:316
+#: inc/sections/wc_os_email_section.php:318
+msgid "SMTP Username"
+msgstr "SMTP-Benutzername"
+
+#: inc/sections/wc_os_email_section.php:320
+msgid "The username to login to your mail server"
+msgstr "Der Benutzername, um sich bei Ihrem Mailserver anzumelden"
+
+#: inc/sections/wc_os_email_section.php:325
+#: inc/sections/wc_os_email_section.php:327
+msgid "SMTP Password"
+msgstr "SMTP-Passwort"
+
+#: inc/sections/wc_os_email_section.php:329
+msgid "The password to login to your mail server"
+msgstr "Das Passwort für die Anmeldung bei Ihrem Mailserver"
+
+#: inc/sections/wc_os_email_section.php:334
+msgid "SMTP Port"
+msgstr "SMTP-Port"
+
+#: inc/sections/wc_os_email_section.php:346
+msgid "Do you need SMTP Server?"
+msgstr "Benötigen Sie einen SMTP-Server?"
+
+#: inc/sections/wc_os_email_section.php:397
+#: inc/sections/wc_os_email_section.php:427 inc/wos_mailer.php:175
+msgid "Successfully sent."
+msgstr "Fühlt sich erfolgreich an."
+
+#: inc/sections/wc_os_email_section.php:415
+msgid ""
+"You can use this section to send an email from your server using the above "
+"configured SMTP details to see if the email gets delivered."
+msgstr ""
+"In diesem Abschnitt können Sie mithilfe der oben konfigurierten SMTP-Details "
+"eine E-Mail von Ihrem Server senden, um festzustellen, ob die E-Mail "
+"zugestellt wird."
+
+#: inc/sections/wc_os_email_section.php:459
+msgid "To"
+msgstr "Zu"
+
+#: inc/sections/wc_os_email_section.php:463
+msgid "Enter the recipient's email address"
+msgstr "Geben Sie die E-Mail-Adresse des Empfängers ein"
+
+#: inc/sections/wc_os_email_section.php:469
+msgid "Subject"
+msgstr "Gegenstand"
+
+#: inc/sections/wc_os_email_section.php:473
+msgid "Enter a subject for your message"
+msgstr "Geben Sie einen Betreff für Ihre Nachricht ein"
+
+#: inc/sections/wc_os_email_section.php:479
+msgid "Message"
+msgstr "Botschaft"
+
+#: inc/sections/wc_os_email_section.php:483
+msgid "Write your email message"
+msgstr "Schreiben Sie Ihre E-Mail-Nachricht"
+
+#: inc/sections/wc_os_email_section.php:491
+msgid "Send Test Email"
+msgstr "Test-E-Mail senden"
+
+#: inc/sections/wc_os_pagination.php:20
+msgid "Click view next group"
+msgstr "Klicken Sie auf Nächste Gruppe anzeigen"
+
+#: inc/sections/wc_os_pagination.php:21
+msgid "Click to Show/Hide all pages list"
+msgstr "Klicken Sie hier, um die Liste aller Seiten anzuzeigen/auszublenden"
+
+#: inc/sections/wc_os_pagination.php:22
+msgid "Click view previous group"
+msgstr "Klicken Sie auf vorherige Gruppe anzeigen"
+
+#: inc/sections/wc_os_pagination.php:29
+msgid "First"
+msgstr "Zuerst"
+
+#: inc/sections/wc_os_pagination.php:30
+msgid "Prev"
+msgstr "Zurück"
+
+#: inc/sections/wc_os_pagination.php:60
+msgid "Last"
+msgstr "Zuletzt"
+
+#: inc/sections/wc_os_pagination.php:61
+msgid "Next"
+msgstr "Nächster"
+
+#: inc/settings/cat-qty-split-settings.php:71
+msgid "Default value, which will work for all categories."
+msgstr "Standardwert, der für alle Kategorien funktioniert."
+
+#: inc/settings/cat-qty-split-settings.php:71
+msgid "Leave empty for category based split without qty. split."
+msgstr "Für kategorienbasierte Aufteilung ohne Menge leer lassen. Teilt."
+
+#: inc/settings/cat-qty-split-settings.php:71
+msgid "Global Split Ratio"
+msgstr "Globales Split-Verhältnis"
+
+#: inc/settings/cat-qty-split-settings.php:97
+#: inc/settings/grouped-cat-settings.php:82
+#: inc/settings/vendor-user-role.php:131 inc/settings/vendor-user-terms.php:82
+msgid "Enable/Disable"
+msgstr "Aktivieren deaktivieren"
+
+#: inc/settings/cat-qty-split-settings.php:99
+#: inc/settings/grouped-cat-settings.php:84
+msgid "No. of Products"
+msgstr "Anzahl der Produkte"
+
+#: inc/settings/cat-qty-split-settings.php:101
+#: inc/settings/grouped-cat-settings.php:86
+msgid "Category Name"
+msgstr "Kategoriename"
+
+#: inc/settings/cat-qty-split-settings.php:103
+msgid "Specific value which will overwrite default global value."
+msgstr "Spezifischer Wert, der den globalen Standardwert überschreibt."
+
+#: inc/settings/cat-qty-split-settings.php:103
+msgid "Leave empty for global value or default settings."
+msgstr "Lassen Sie das Feld für globale Werte oder Standardeinstellungen leer."
+
+#: inc/settings/cat-qty-split-settings.php:103
+msgid "Specific Split Ratio"
+msgstr "Spezifisches Aufteilungsverhältnis"
+
+#: inc/settings/cat-qty-split-settings.php:105
+#: inc/settings/grouped-cat-settings.php:92
+msgid "Category Actions"
+msgstr "Kategorieaktionen"
+
+#: inc/settings/cat-qty-split-settings.php:135
+#: inc/settings/gravity-forms-meta-based.php:140
+#: inc/settings/grouped-cat-settings.php:123
+#: inc/settings/split-settings.php:133 inc/settings/split-settings.php:164
+#: inc/settings/split-settings.php:277 inc/settings/split-settings.php:307
+#: inc/settings/split-settings.php:334 inc/settings/split-settings.php:396
+#: inc/settings/vendor-user-role.php:258 inc/settings/vendor-user-terms.php:212
+msgid "\"Save Changes\" to continue with this split method."
+msgstr ""
+"\"Änderungen speichern\", um mit dieser Aufteilungsmethode fortzufahren."
+
+#: inc/settings/coupons.php:24
+msgid "Do not clone or distrubute coupons amount to child order."
+msgstr "Du darfst Coupons nicht klonen oder verteilen, um Kinder zu bestellen."
+
+#: inc/settings/coupons.php:25
+msgid "Clone same coupon amount to child orders without any change."
+msgstr ""
+"Klonen Sie denselben Gutscheinbetrag ohne Änderung auf untergeordnete "
+"Bestellungen."
+
+#: inc/settings/coupons.php:26
+msgid "Ratio"
+msgstr "Verhältnis"
+
+#: inc/settings/coupons.php:26
+msgid ""
+"It will calculate child order totals and distribute discounted amount "
+"accordingly."
+msgstr ""
+"Es berechnet die Gesamtsumme der untergeordneten Bestellungen und verteilt "
+"den rabattierten Betrag entsprechend."
+
+#: inc/settings/general-settings.php:23
+msgid "Cron Jobs"
+msgstr "Cron-Jobs"
+
+#: inc/settings/general-settings.php:27
+msgid "Shop Order Page - Perform scheduled queries on Orders List Page"
+msgstr ""
+"Shop-Bestellseite - Geplante Abfragen auf der Bestelllistenseite durchführen"
+
+#: inc/settings/general-settings.php:29
+msgid "Orders List Page"
+msgstr "Seite mit der Bestellliste"
+
+#: inc/settings/general-settings.php:29 inc/settings/general-settings.php:35
+#: inc/settings/general-settings.php:56 inc/settings/general-settings.php:114
+#: inc/settings/general-settings.php:120 inc/settings/general-settings.php:126
+#: inc/settings/general-settings.php:132 inc/settings/general-settings.php:138
+#: inc/settings/general-settings.php:167 inc/settings/general-settings.php:194
+#: inc/settings/general-settings.php:211 inc/settings/general-settings.php:267
+#: inc/settings/general-settings.php:273 inc/settings/general-settings.php:279
+msgid "Off"
+msgstr "aus"
+
+#: inc/settings/general-settings.php:29 inc/settings/general-settings.php:35
+#: inc/settings/general-settings.php:56 inc/settings/general-settings.php:114
+#: inc/settings/general-settings.php:120 inc/settings/general-settings.php:126
+#: inc/settings/general-settings.php:132 inc/settings/general-settings.php:138
+#: inc/settings/general-settings.php:167 inc/settings/general-settings.php:194
+#: inc/settings/general-settings.php:211 inc/settings/general-settings.php:267
+#: inc/settings/general-settings.php:273 inc/settings/general-settings.php:279
+msgid "On"
+msgstr "Wir"
+
+#: inc/settings/general-settings.php:33
+msgid ""
+"My Account Page - Perform scheduled queries on Customer > My Account Page"
+msgstr ""
+"Seite \"Mein Konto\" - Führen Sie geplante Abfragen auf Kunde > Seite \"Mein "
+"Konto\" durch"
+
+#: inc/settings/general-settings.php:35
+msgid "My Account Page"
+msgstr "Meine Kontoseite"
+
+#: inc/settings/general-settings.php:40
+msgid "Click here for Cron Jobs"
+msgstr "Klicken Sie hier für Cron-Jobs"
+
+#: inc/settings/general-settings.php:54
+msgid ""
+"On checkout page, on place order action, automatically split order into "
+"child orders."
+msgstr ""
+"Teilen Sie auf der Checkout-Seite bei der Bestellung eine Bestellung "
+"automatisch in untergeordnete Bestellungen auf."
+
+#: inc/settings/general-settings.php:56
+msgid "Auto Split"
+msgstr "Auto Split"
+
+#: inc/settings/general-settings.php:60
+msgid "Remove splitted items from parent order"
+msgstr "Entfernen Sie geteilte Elemente aus der übergeordneten Reihenfolge"
+
+#: inc/settings/general-settings.php:62
+msgid "Remove Items from Parent Order on Split?"
+msgstr "Elemente aus der übergeordneten Reihenfolge beim Teilen entfernen?"
+
+#: inc/settings/general-settings.php:73
+msgid "Show / Hide"
+msgstr "Anzeigen / Ausblenden"
+
+#: inc/settings/general-settings.php:79
+msgid "Display Order Notes Fields on Checkout Page"
+msgstr "Bestellhinweisfelder auf der Checkout-Seite anzeigen"
+
+#: inc/settings/general-settings.php:85
+msgid "Display Billing Details Form on Checkout Page"
+msgstr ""
+"Zeigen Sie das Formular mit den Rechnungsdetails auf der Checkout-Seite an"
+
+#: inc/settings/general-settings.php:91
+msgid "Display Shipping Details Form on Checkout Page"
+msgstr "Versanddetailformular auf der Checkout-Seite anzeigen"
+
+#: inc/settings/general-settings.php:97
+msgid "Hide Child Order on Thank You Page after Split?"
+msgstr "Kinderbestellung auf Dankesseite nach Split ausblenden?"
+
+#: inc/settings/general-settings.php:103
+msgid ""
+"Optional message to inform your customers if split happens that "
+"[NUMBER_OF_CHILD_ORDERS] parcels, packages, orders they will receive instead "
+"of one."
+msgstr ""
+"Optionale Nachricht, um Ihre Kunden zu informieren, wenn es zu einer "
+"Aufteilung kommt, dass [NUMBER_OF_CHILD_ORDERS] Pakete, Pakete oder "
+"Bestellungen sie anstelle einer erhalten werden."
+
+#: inc/settings/general-settings.php:103
+msgid "You will receive [NUMBER_OF_CHILD_ORDERS] packages."
+msgstr "Sie erhalten [NUMBER_OF_CHILD_ORDERS] Pakete."
+
+#: inc/settings/general-settings.php:114
+msgid "Admin > Orders List > \"Items Count\" Column"
+msgstr "Admin > Bestellliste > Spalte \"Artikelanzahl\""
+
+#: inc/settings/general-settings.php:120
+msgid "Admin > Orders List > \"Split From\" Column"
+msgstr "Admin> Auftragsliste> Spalte \"Teilen von\""
+
+#: inc/settings/general-settings.php:126
+msgid "Admin > Orders List > \"Parent Order\" Column"
+msgstr "Admin> Auftragsliste> Spalte \"Übergeordnete Bestellung\""
+
+#: inc/settings/general-settings.php:130
+msgid ""
+"e.g. Grouped Categories Split Method > Turn ON unlimited grouping options"
+msgstr ""
+"z.B. Aufteilungsmethode für gruppierte Kategorien> Aktivieren Sie "
+"unbegrenzte Gruppierungsoptionen"
+
+#: inc/settings/general-settings.php:132
+msgid "Extend List of Groups"
+msgstr "Liste der Gruppen erweitern"
+
+#: inc/settings/general-settings.php:136
+msgid ""
+"View Order button will appear adjacent to Add Order button on edit order "
+"page."
+msgstr ""
+"View Order button will appear adjacent to Add Order button on edit order "
+"page."
+
+#: inc/settings/general-settings.php:138
+msgid "View Order Button"
+msgstr "Schaltfläche zum Anzeigen der Bestellung"
+
+#: inc/settings/general-settings.php:150
+msgid "Limit Alphabets in groups (by default 26)"
+msgstr "Beschränken Sie Alphabete in Gruppen (standardmäßig 26)"
+
+#: inc/settings/general-settings.php:161
+msgid "Before Split"
+msgstr "Vor dem Teilen"
+
+#: inc/settings/general-settings.php:167
+msgid "Auto Clone"
+msgstr "Automatisches Klonen"
+
+#: inc/settings/general-settings.php:173
+msgid "Status for auto cloned order"
+msgstr "Status für automatisch geklonte Bestellung"
+
+#: inc/settings/general-settings.php:192
+msgid "This permission works only if Auto Split is on"
+msgstr ""
+"Diese Berechtigung funktioniert nur, wenn die automatische Aufteilung "
+"aktiviert ist"
+
+#: inc/settings/general-settings.php:194
+msgid "Customer permission for split (Checkout Page)"
+msgstr "Kundenerlaubnis zum Teilen (Checkout-Seite)"
+
+#: inc/settings/general-settings.php:202
+msgid "Checkout page Text"
+msgstr "Checkout-Seite Text"
+
+#: inc/settings/general-settings.php:209
+msgid "Distribution of items in packages will appear for review"
+msgstr "Die Verteilung von Artikeln in Paketen wird zur Überprüfung angezeigt"
+
+#: inc/settings/general-settings.php:211
+msgid "Split Overview on Checkout Page"
+msgstr "Geteilte Übersicht auf der Checkout-Seite"
+
+#: inc/settings/general-settings.php:215 inc/settings/general-settings.php:217
+msgid "Hide Package Price In Split Overview"
+msgstr "Paketpreis in geteilter Übersicht ausblenden"
+
+#: inc/settings/general-settings.php:221 inc/settings/general-settings.php:223
+msgid "Display Vendor Name In Split Overview"
+msgstr "Anzeigen des Anbieternamens in der geteilten Übersicht"
+
+#: inc/settings/general-settings.php:226
+msgid "Customer will choose to pay for each Child Order shipment separately."
+msgstr "Der Kunde bezahlt jede Sendung der Kinderbestellung separat."
+
+#: inc/settings/general-settings.php:226
+msgid "It will work if customer permission will be enabled."
+msgstr "Es funktioniert, wenn die Kundenberechtigung aktiviert wird."
+
+#: inc/settings/general-settings.php:228
+msgid "Shipping Method for Child Orders"
+msgstr "Versandart für Kinderbestellungen"
+
+#: inc/settings/general-settings.php:236
+msgid "After Split"
+msgstr "Nach dem Teilen"
+
+#: inc/settings/general-settings.php:241
+msgid "Display Summation of Parent and Child Orders on Order Receipt"
+msgstr ""
+"Zeigen Sie die Zusammenfassung der übergeordneten und untergeordneten "
+"Bestellungen auf dem Auftragseingang an"
+
+#: inc/settings/general-settings.php:243
+msgid "Display Summation of Parent and Child Orders"
+msgstr ""
+"Zusammenfassung der übergeordneten und untergeordneten Bestellungen anzeigen"
+
+#: inc/settings/general-settings.php:247
+msgid "Shipping details like shipped to Name, Address and Contact etc."
+msgstr "Versanddetails wie Versand an Name, Adresse und Kontakt usw."
+
+#: inc/settings/general-settings.php:249
+msgid "Add Shipping Details in Split Orders"
+msgstr "Fügen Sie Versanddetails in geteilten Bestellungen hinzu"
+
+#: inc/settings/general-settings.php:253
+msgid "It is recommended to keep order notes OFF"
+msgstr "Es wird empfohlen, Bestellnotizen AUS zu lassen"
+
+#: inc/settings/general-settings.php:255
+msgid "Add Customer Notes to Split Orders"
+msgstr "Kundennotizen zu geteilten Bestellungen hinzufügen"
+
+#: inc/settings/general-settings.php:259
+msgid "Cloning of tax details from Parent Order"
+msgstr "Klonen von Steuerdetails aus der Elternbestellung"
+
+#: inc/settings/general-settings.php:261
+msgid "Add Tax Details in Split Orders"
+msgstr "Steuerdetails in geteilten Bestellungen hinzufügen"
+
+#: inc/settings/general-settings.php:267
+msgid "Don't send email notifications when a backorder is made."
+msgstr ""
+"Senden Sie keine E-Mail-Benachrichtigungen, wenn eine Nachbestellung erfolgt."
+
+#: inc/settings/general-settings.php:267
+msgid "Disable backorder email notifications"
+msgstr "Deaktivieren Sie Rückstands-E-Mail-Benachrichtigungen"
+
+#: inc/settings/general-settings.php:271
+msgid "Child Orders will be masked with Parent Order Sequence with a Postfix"
+msgstr ""
+"Untergeordnete Bestellungen werden mit der Reihenfolge der übergeordneten "
+"Bestellungen mit einem Postfix maskiert"
+
+#: inc/settings/general-settings.php:273
+msgid "Mask Child Orders with a Sequential Format"
+msgstr ""
+"Maskieren Sie untergeordnete Bestellungen mit einem sequentiellen Format"
+
+#: inc/settings/general-settings.php:277
+msgid "Customer column will be displayed in order list"
+msgstr "Die Kundenspalte wird in der Bestellliste angezeigt"
+
+#: inc/settings/general-settings.php:279
+msgid "Show customer column in order list"
+msgstr "Kundenspalte in Auftragsliste anzeigen"
+
+#: inc/settings/general-settings.php:283
+msgid "Remove fees from child order"
+msgstr "Gebühren aus der Kinderbestellung entfernen"
+
+#: inc/settings/general-settings.php:285
+msgid "Remove Fees from Child Order"
+msgstr "Gebühren aus der Kinderbestellung entfernen"
+
+#: inc/settings/general-settings.php:289
+msgid "Remove Price from child order"
+msgstr "Preis aus untergeordneter Bestellung entfernen"
+
+#: inc/settings/general-settings.php:291
+msgid "Remove Price from Child Order"
+msgstr "Preis aus untergeordneter Bestellung entfernen"
+
+#: inc/settings/general-settings.php:300
+msgid "Assets (Optional)"
+msgstr "Vermögenswerte (optional)"
+
+#: inc/settings/general-settings.php:303
+msgid "Disable Font Awesome"
+msgstr "Deaktivieren Sie Font Awesome"
+
+#: inc/settings/general-settings.php:304
+msgid "Disable Bootstrap"
+msgstr "Bootstrap deaktivieren"
+
+#: inc/settings/general-settings.php:309
+msgid "WCFM Marketplace"
+msgstr "WCFM-Marktplatz"
+
+#: inc/settings/general-settings.php:312
+msgid "Update Order Status"
+msgstr "Bestellstatus aktualisieren"
+
+#: inc/settings/general-settings.php:313
+msgid "Update Shipping Status"
+msgstr "Versandstatus aktualisieren"
+
+#: inc/settings/general-settings.php:314
+msgid "Update Commission Status"
+msgstr "Provisionsstatus aktualisieren"
+
+#: inc/settings/general-settings.php:372
+msgid "Order cloning is an for bulk action dropdown and orders list."
+msgstr ""
+"Das Klonen von Bestellungen ist eine Dropdown- und Bestellliste für "
+"Massenaktionen."
+
+#: inc/settings/general-settings.php:380
+msgid "Enable order duplication or cloning"
+msgstr "Aktivieren Sie das Duplizieren oder Klonen von Bestellungen"
+
+#: inc/settings/general-settings.php:412
+msgid "Split ON/OFF"
+msgstr "EIN / AUS teilen"
+
+#: inc/settings/general-settings.php:416
+msgid "Disable split order option"
+msgstr "Deaktivieren Sie die Option für geteilte Reihenfolge"
+
+#: inc/settings/general-settings.php:429
+msgid "On Split, refresh orders list"
+msgstr "Aktualisieren Sie auf Split die Auftragsliste"
+
+#: inc/settings/general-settings.php:435
+msgid "Do not refresh \"Thank You\" page to display child orders on split"
+msgstr ""
+"Aktualisieren Sie die Seite \"Danke\" nicht, um untergeordnete Bestellungen "
+"beim Teilen anzuzeigen"
+
+#: inc/settings/general-settings.php:441
+msgid "Split lock, do not split other than this status"
+msgstr "Split-Sperre, nicht anders als diesen Status teilen"
+
+#: inc/settings/general-settings.php:461
+msgid "Splitted order(s) status"
+msgstr "Status der geteilten Bestellung (en)"
+
+#: inc/settings/general-settings.php:520
+msgid ""
+"Order removal is an optional feature, once order has been splitted so "
+"original order can be removed."
+msgstr ""
+"Das Entfernen von Bestellungen ist eine optionale Funktion, sobald die "
+"Bestellung aufgeteilt wurde, sodass die ursprüngliche Bestellung entfernt "
+"werden kann."
+
+#: inc/settings/general-settings.php:524
+msgid "Enable original order removal on splitting"
+msgstr "Aktivieren Sie das Entfernen der ursprünglichen Bestellung beim Teilen"
+
+#: inc/settings/general-settings.php:538
+msgid ""
+"Alternatively, orginal order can be updated with a different available order "
+"status."
+msgstr ""
+"Alternativ kann die ursprüngliche Bestellung mit einem anderen verfügbaren "
+"Bestellstatus aktualisiert werden."
+
+#: inc/settings/general-settings.php:542
+msgid "Single Order Case"
+msgstr "Einzelbestellungsfall"
+
+#: inc/settings/general-settings.php:542
+msgid "When there is no splitting and parent order remains as it is."
+msgstr ""
+"Wenn keine Aufteilung erfolgt und die übergeordnete Reihenfolge unverändert "
+"bleibt."
+
+#: inc/settings/general-settings.php:561
+msgid "No rule defined"
+msgstr "Keine Regel definiert"
+
+#: inc/settings/general-settings.php:561
+msgid "Defined Rules"
+msgstr "Definierte Regeln"
+
+#: inc/settings/general-settings.php:562
+msgid ""
+"Use rule based status when order not split and there is only single item in "
+"order."
+msgstr ""
+"Verwenden Sie den regelbasierten Status, wenn die Bestellung nicht "
+"aufgeteilt ist und nur ein Artikel in der Bestellung ist."
+
+#: inc/settings/general-settings.php:566
+msgid "Rule based status (Single Item Case)"
+msgstr "Regelbasierter Status (Einzelfall)"
+
+#: inc/settings/general-settings.php:594
+msgid "Configure"
+msgstr "Konfigurieren"
+
+#: inc/settings/general-settings.php:602
+msgid "Split Order Case"
+msgstr "Split Order Case"
+
+#: inc/settings/general-settings.php:602
+msgid "When a split happens and child orders are generated."
+msgstr ""
+"Wenn eine Aufteilung erfolgt und untergeordnete Bestellungen generiert "
+"werden."
+
+#: inc/settings/general-settings.php:617
+msgid "Empty Order Case"
+msgstr "Leerer Bestellkoffer"
+
+#: inc/settings/general-settings.php:617
+msgid "When a split happens and original order left with no items in it."
+msgstr ""
+"Wenn ein Split stattfindet und die ursprüngliche Bestellung keine Artikel "
+"mehr enthält."
+
+#: inc/settings/general-settings.php:671
+msgid "Consolidated/Merged/Combined orders should be removed after action."
+msgstr ""
+"Konsolidierte / zusammengeführte / kombinierte Aufträge sollten nach der "
+"Aktion entfernt werden."
+
+#: inc/settings/general-settings.php:671
+msgid "Watch Tutorial"
+msgstr "Schaue das Tutorial an"
+
+#: inc/settings/general-settings.php:679
+msgid "Enable original order removal on consolidation"
+msgstr ""
+"Aktivieren Sie das Entfernen der ursprünglichen Bestellung bei der "
+"Konsolidierung"
+
+#: inc/settings/gravity-forms-meta-based.php:58
+msgid "Click here to expand all forms"
+msgstr "Klicken Sie hier, um alle Formulare zu erweitern"
+
+#: inc/settings/gravity-forms-meta-based.php:158
+msgid "Only Compatible With Gravity Forms"
+msgstr "Nur kompatibel mit Gravity Forms"
+
+#: inc/settings/grouped-cat-settings.php:53
+msgid "Shipping Class will be applied according to the following selection."
+msgstr "Die Versandklasse wird gemäß der folgenden Auswahl angewendet."
+
+#: inc/settings/grouped-cat-settings.php:55
+msgid "Video Tutorial for Shipping Calculation"
+msgstr "Video-Tutorial zur Versandberechnung"
+
+#: inc/settings/grouped-cat-settings.php:60
+msgid "All products will be grouped by categories in separate orders."
+msgstr ""
+"Alle Produkte werden in separaten Bestellungen nach Kategorien gruppiert."
+
+#: inc/settings/grouped-cat-settings.php:63
+msgid ""
+"All selected categories will have their products grouped in a separate "
+"order. Remaining items will stay in original order."
+msgstr ""
+"Die Produkte aller ausgewählten Kategorien werden in einer separaten "
+"Reihenfolge gruppiert. Die restlichen Artikel bleiben in der ursprünglichen "
+"Reihenfolge."
+
+#: inc/settings/grouped-cat-settings.php:66
+msgid ""
+"All categories from same group will have their products grouped in a "
+"separate order. Remaining items will stay in original order."
+msgstr ""
+"Die Produkte aller Kategorien derselben Gruppe werden in einer separaten "
+"Reihenfolge gruppiert. Die restlichen Artikel bleiben in der ursprünglichen "
+"Reihenfolge."
+
+#: inc/settings/split-settings.php:14
+msgid ""
+"Select a split method to configure products, categories, attributes and/or "
+"groups"
+msgstr ""
+"Wählen Sie eine Aufteilungsmethode aus, um Produkte, Kategorien, Attribute "
+"und / oder Gruppen zu konfigurieren"
+
+#: inc/settings/split-settings.php:14
+msgid "Click here to reach WordPress Plugins Developer"
+msgstr "Klicken Sie hier, um zum WordPress Plugins Developer zu gelangen"
+
+#: inc/settings/split-settings.php:14
+msgid "Need help?"
+msgstr "Brauchen Sie Hilfe?"
+
+#: inc/settings/split-settings.php:103
+msgid ""
+"Products/Variations will be splitted into multiple orders separately or in "
+"grouping as defined here"
+msgstr ""
+"Produkte / Variationen werden separat oder in Gruppen wie hier definiert in "
+"mehrere Bestellungen aufgeteilt"
+
+#: inc/settings/split-settings.php:104
+msgid ""
+"Default: All attributes are considered selected. On selection, only selected "
+"attributes will be considered for split method."
+msgstr ""
+"Standard: Alle Attribute gelten als ausgewählt. Bei der Auswahl werden nur "
+"ausgewählte Attribute für die Aufteilungsmethode berücksichtigt."
+
+#: inc/settings/split-settings.php:106
+msgid ""
+"Products/Variations will be splitted into multiple orders group by attribute "
+"values"
+msgstr ""
+"Produkte / Variationen werden nach Attributwerten in mehrere Auftragsgruppen "
+"aufgeteilt"
+
+#: inc/settings/split-settings.php:107
+msgid ""
+"Default: All attributes are considered as selected. On selection, only "
+"selected attributes will be considered for split method."
+msgstr ""
+"Standard: Alle Attribute gelten als ausgewählt. Bei der Auswahl werden nur "
+"ausgewählte Attribute für die Aufteilungsmethode berücksichtigt."
+
+#: inc/settings/split-settings.php:109
+msgid ""
+"Order items meta data will be used to group items and form it into multiple "
+"orders"
+msgstr ""
+"Die Metadaten von Bestellartikeln werden verwendet, um Artikel zu gruppieren "
+"und in mehrere Bestellungen zu formen"
+
+#: inc/settings/split-settings.php:110
+msgid ""
+"Only selected meta keys+values will be considered as a group for new orders."
+msgstr ""
+"Nur ausgewählte Metaschlüssel+Werte werden als Gruppe für neue Bestellungen "
+"berücksichtigt."
+
+#: inc/settings/split-settings.php:112
+msgid "Order items meta data from Gravity Forms will be used to group"
+msgstr ""
+"Metadaten zu Bestellartikeln werden verwendet, um die Artikel in Splitter-"
+"Bestellungen zu gruppieren"
+
+#: inc/settings/split-settings.php:113
+msgid "Only selected meta field will be considered for grouping in new orders."
+msgstr ""
+"Nur ausgewählte Metafelder werden für die Gruppierung in neue Bestellungen "
+"berücksichtigt."
+
+#: inc/settings/split-settings.php:194
+msgid "Default Order Status"
+msgstr "Standard-Bestellstatus"
+
+#: inc/settings/split-settings.php:194
+msgid "Statuses work without Split as well"
+msgstr "Status funktionieren auch ohne Split"
+
+#: inc/settings/split-settings.php:198
+msgid "In Stock Order Status"
+msgstr "Bestellstatus auf Lager"
+
+#: inc/settings/split-settings.php:202
+msgid "Out Stock Order Status"
+msgstr "Ausverkauft Bestellstatus"
+
+#: inc/settings/split-settings.php:211
+msgid "Get in stock items payment"
+msgstr "Holen Sie sich auf Lager Artikel Zahlung"
+
+#: inc/settings/split-settings.php:217 inc/settings/vendor-user-role.php:79
+#: inc/wc_settings.php:117
+msgid "and"
+msgstr "und"
+
+#: inc/settings/split-settings.php:222
+msgid "Get out of stock items payment"
+msgstr "Bezahlen Sie nicht vorrätige Artikel"
+
+#: inc/settings/split-settings.php:228
+msgid "Do not get out of stock items payment"
+msgstr "Bezahlen Sie nicht auf Lager"
+
+#: inc/settings/split-settings.php:240
+msgid ""
+"It is recommended that you TURN ON \"Remove Items from Parent Order on Split"
+"\" option from settings page so parent order can have only In Stock items "
+"after split."
+msgstr ""
+"Es wird empfohlen, auf der Einstellungsseite die Option \"Artikel aus "
+"übergeordneter Bestellung bei Aufteilung entfernen\" zu aktivieren, damit "
+"die übergeordnete Bestellung nach der Aufteilung nur auf Lager befindliche "
+"Artikel haben kann."
+
+#: inc/settings/split-settings.php:249
+msgid "Select products to trigger the above selected split order action"
+msgstr ""
+"Wählen Sie Produkte aus, um die oben ausgewählte Aktion für geteilte "
+"Reihenfolge auszulösen"
+
+#: inc/settings/split-settings.php:356
+msgid "Search Products"
+msgstr "Produktsuche"
+
+#: inc/settings/split-settings.php:364
+msgid "All products listed and all future products added."
+msgstr "Alle aufgelisteten Produkte und alle zukünftigen Produkte hinzugefügt."
+
+#: inc/settings/split-settings.php:366
+msgid "Stock"
+msgstr "Lager"
+
+#: inc/settings/split-settings.php:368
+msgid "Product Name"
+msgstr "Produktname"
+
+#: inc/settings/split-settings.php:370
+msgid "Category"
+msgstr "Kategorie"
+
+#: inc/settings/split-settings.php:376
+msgid "Product Actions"
+msgstr "Produktaktionen"
+
+#: inc/settings/vendor-user-role.php:36
+msgid "Select a user role for Vendors"
+msgstr "Wählen Sie eine Benutzerrolle für Anbieter aus"
+
+#: inc/settings/vendor-user-role.php:62
+msgid "Users with active products only"
+msgstr "Benutzer nur mit aktiven Produkten"
+
+#: inc/settings/vendor-user-role.php:64 inc/settings/vendor-user-terms.php:36
+msgid "Note:"
+msgstr "Hinweis:"
+
+#: inc/settings/vendor-user-role.php:64 inc/settings/vendor-user-terms.php:36
+msgid "Leave unselected for each split order with unique vendor items."
+msgstr ""
+"Lassen Sie diese Option für jede geteilte Bestellung mit eindeutigen "
+"Lieferantenartikeln nicht ausgewählt."
+
+#: inc/settings/vendor-user-role.php:73
+msgid "Group selected vendors together"
+msgstr "Gruppieren Sie ausgewählte Anbieter"
+
+#: inc/settings/vendor-user-role.php:84
+msgid "Group all remaining vendors together"
+msgstr "Gruppieren Sie alle verbleibenden Anbieter"
+
+#: inc/settings/vendor-user-role.php:90
+msgid "Separate all remaining vendors"
+msgstr "Trennen Sie alle verbleibenden Anbieter"
+
+#: inc/settings/vendor-user-role.php:133 inc/settings/vendor-user-terms.php:84
+msgid "Vendor Name"
+msgstr "Herstellername"
+
+#: inc/settings/vendor-user-role.php:139 inc/settings/vendor-user-terms.php:90
+msgid "Actions"
+msgstr "Aktionen"
+
+#: inc/settings/vendor-user-role.php:244 inc/settings/vendor-user-terms.php:198
+msgid "Note: Products by unselected vendors will remain in the parent order."
+msgstr ""
+"Hinweis: Produkte von nicht ausgewählten Anbietern bleiben in der "
+"übergeordneten Reihenfolge."
+
+#: inc/settings/vendor-user-terms.php:236
+msgid "Only Compatible With WooCommerce Product Vendors"
+msgstr "Nur kompatibel mit WooCommerce-Produktanbietern"
+
+#: inc/wc_os_import_export.php:202
+msgid "Settings imported successfully."
+msgstr "Einstellungen erfolgreich importiert."
+
+#: inc/wc_os_import_export.php:204
+msgid " to refresh page."
+msgstr " Seite aktualisieren."
+
+#: inc/wc_os_import_export.php:214
+msgid "Settings exported successfully."
+msgstr "Einstellungen erfolgreich exportiert."
+
+#: inc/wc_os_import_export.php:229
+msgid "Export Settings"
+msgstr "Exporteinstellungen"
+
+#: inc/wc_os_import_export.php:234
+msgid "Last Export Time"
+msgstr "Letzte Exportzeit"
+
+#: inc/wc_os_import_export.php:239
+msgid "Use encoded string to import settings."
+msgstr ""
+"Verwenden Sie eine codierte Zeichenfolge, um Einstellungen zu importieren."
+
+#: inc/wc_os_import_export.php:242
+msgid "Import Settings"
+msgstr "Importeinstellungen"
+
+#: inc/wc_os_import_export.php:249
+msgid "Settings Summary"
+msgstr "Zusammenfassung der Einstellungen"
+
+#: inc/wc_settings.php:1
+msgid "No script kiddies please!"
+msgstr "Bitte keine Skriptkinder!"
+
+#: inc/wc_settings.php:84
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: inc/wc_settings.php:86
+msgid "Order Split Settings"
+msgstr "Geteilte Einstellungen bestellen"
+
+#: inc/wc_settings.php:88
+msgid "Customization"
+msgstr "Anpassung"
+
+#: inc/wc_settings.php:90
+msgid "Emails"
+msgstr "E-Mails"
+
+#: inc/wc_settings.php:92
+msgid "Shipping"
+msgstr "Versand"
+
+#: inc/wc_settings.php:94
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: inc/wc_settings.php:99
+msgid "Advanced Settings"
+msgstr "Erweiterte Einstellungen"
+
+#: inc/wc_settings.php:101
+msgid "Logs"
+msgstr "Protokolle"
+
+#: inc/wc_settings.php:117
+msgid "You need WooCommerce plugin to be installed and activated."
+msgstr ""
+"Sie benötigen das WooCommerce-Plugin, um installiert und aktiviert zu werden."
+
+#: inc/wc_settings.php:117
+msgid "Please"
+msgstr "Bitte"
+
+#: inc/wc_settings.php:117
+msgid "Install"
+msgstr "Installieren"
+
+#: inc/wc_settings.php:117
+msgid "or"
+msgstr "Gold"
+
+#: inc/wc_settings.php:117
+msgid "Activate"
+msgstr "aktivieren Sie"
+
+#: inc/wc_settings.php:117
+msgid "plugin to proceed"
+msgstr "Plugin um fortzufahren"
+
+#: inc/wc_settings.php:138 inc/wc_settings.php:150
+msgid "This feature is available in premium version."
+msgstr "Diese Funktion ist in der Premium-Version verfügbar."
+
+#: inc/wc_settings.php:167 inc/wc_settings.php:170
+msgid "No Lock (Default)"
+msgstr "Keine Sperre (Standard)"
+
+#: inc/wos-emails.php:28
+msgid "Following orders are combined into order#"
+msgstr "Folgende Bestellungen werden zu Bestellnummer zusammengefasst Auftrag#"
+
+#: inc/wos-emails.php:29
+msgid "Following orders are combined into one order#"
+msgstr ""
+"Folgende Bestellungen werden zu einer Bestellnummer zusammengefasst Auftrag#"
+
+#: inc/wos-emails.php:46
+msgid ""
+"Order items will remain intact, same product (items) will be merged and "
+"quantity will be incremented."
+msgstr ""
+"Bestellartikel bleiben erhalten, dasselbe Produkt (dieselben Artikel) werden "
+"zusammengeführt und die Menge wird erhöht."
+
+#: inc/wos-emails.php:48 inc/wos-emails.php:129
+msgid "to check your orders status in your account."
+msgstr "um Ihren Bestellstatus in Ihrem Konto zu überprüfen."
+
+#: inc/wos-emails.php:79
+msgid "Order#"
+msgstr "Auftrag#"
+
+#: inc/wos-emails.php:79
+msgid "splitted into"
+msgstr "aufgeteilt in"
+
+#: inc/wos_mailer.php:175
+msgid "Couldn't send an email."
+msgstr "E-Mail konnte nicht gesendet werden."
+
+#: inc/wos_mailer.php:175
+msgid "SMTP fields were empty. WordPress default function"
+msgstr "SMTP-Felder waren leer. WordPress Standardfunktion"
+
+#: inc/wos_mailer.php:175
+msgid "is in use."
+msgstr "ist in Gebrauch."
+
+#: index.php:105
+msgid "ACF not installed/activated, this method only works with ACF"
+msgstr ""
+"ACF nicht installiert / aktiviert, diese Methode funktioniert nur mit ACF"
+
+#: index.php:106
+msgid "to install/activate ACF"
+msgstr "ACF installieren / aktivieren"
+
+#: index.php:142
+msgid ""
+"Warning: Products in multiple categories might will produce unexpected "
+"results. It is not recommended to split product items in multiple categories."
+msgstr ""
+"Warnung: Produkte in mehreren Kategorien führen möglicherweise zu "
+"unerwarteten Ergebnissen. Es wird nicht empfohlen, Produktartikel in mehrere "
+"Kategorien aufzuteilen."
+
+#: index.php:174
+msgid "Do not perform split action of any type."
+msgstr "Führen Sie keine Split-Aktion aus."
+
+#: index.php:175
+msgid ""
+"Perform split action if any of the following product items are found in the "
+"order. So every single item in the order will be added in a separate order."
+msgstr ""
+"Führen Sie eine Aufteilungsaktion durch, wenn eines der folgenden "
+"Produktelemente in der Bestellung enthalten ist. Daher wird jeder einzelne "
+"Artikel in der Bestellung in einer separaten Bestellung hinzugefügt."
+
+#: index.php:176
+msgid "Exclusive"
+msgstr "Exklusiv"
+
+#: index.php:176
+msgid ""
+"If any of the following product items are found in the order, separate them "
+"in new orders exclusively. So each selected item will be in a separate order."
+msgstr ""
+"Wenn einer der folgenden Produktartikel in der Bestellung enthalten ist, "
+"trennen Sie diese ausschließlich in neuen Bestellungen. Daher wird jeder "
+"ausgewählte Artikel in einer separaten Reihenfolge angezeigt."
+
+#: index.php:177
+msgid "Inclusive"
+msgstr "Inklusive"
+
+#: index.php:177
+msgid ""
+"If any of the following product items are found in the order, separate them "
+"in a new order inclusively. So selected items will be grouped in another "
+"order separately."
+msgstr ""
+"Wenn einer der folgenden Produktartikel in der Bestellung enthalten ist, "
+"trennen Sie ihn in einer neuen Bestellung einschließlich. Ausgewählte "
+"Artikel werden also separat in einer anderen Reihenfolge gruppiert."
+
+#: index.php:178
+msgid "Shredder"
+msgstr "Aktenvernichter"
+
+#: index.php:178
+msgid ""
+"Group selected items in a new order. And all other items will be separated "
+"individually."
+msgstr ""
+"Gruppieren Sie ausgewählte Artikel in einer neuen Reihenfolge. Alle anderen "
+"Elemente werden einzeln getrennt."
+
+#: index.php:179
+msgid "In stock"
+msgstr "Auf Lager"
+
+#: index.php:179
+msgid "out of stock"
+msgstr "ausverkauft"
+
+#: index.php:179
+msgid ""
+"If this option is selected, plugin will separate in stock and out of stock "
+"items. So items will be grouped as in stock items in one and remaining items "
+"in other order."
+msgstr ""
+"Wenn diese Option ausgewählt ist, trennt das Plugin Artikel auf Lager und "
+"nicht auf Lager. So werden Artikel wie Lagerartikel in einem und "
+"verbleibende Artikel in einer anderen Reihenfolge gruppiert."
+
+#: index.php:180
+msgid "Quantity Split"
+msgstr "Mengenaufteilung"
+
+#: index.php:180
+msgid ""
+"If this option is selected, multiple orders can be created with default or "
+"defined quantity ratio."
+msgstr ""
+"Wenn diese Option ausgewählt ist, können mehrere Bestellungen mit Standard- "
+"oder definiertem Mengenverhältnis erstellt werden."
+
+#: index.php:181
+msgid "Group by Delivery Dates / Subscription"
+msgstr "Gruppieren nach Lieferterminen / Abonnement"
+
+#: index.php:181
+msgid "This option will split items according to delivery dates selected."
+msgstr ""
+"Mit dieser Option werden Artikel nach den ausgewählten Lieferterminen "
+"aufgeteilt."
+
+#: index.php:182
+msgid "Category Based Quantity Split"
+msgstr "Kategoriebasierte Mengenaufteilung"
+
+#: index.php:182
+msgid ""
+"You can define quantity ratio for each category to split products into child "
+"orders."
+msgstr ""
+"Sie können für jede Kategorie ein Mengenverhältnis definieren, um Produkte "
+"in untergeordnete Bestellungen aufzuteilen."
+
+#: index.php:183
+msgid "Grouped Categories"
+msgstr "Gruppierte Kategorien"
+
+#: index.php:183
+msgid ""
+"If this option is selected, plugin will separate category based items or "
+"group of category based items into assigned groups."
+msgstr ""
+"Wenn diese Option ausgewählt ist, teilt das Plugin kategoriebasierte "
+"Elemente oder Gruppen kategoriebasierter Elemente in zugewiesene Gruppen auf."
+
+#: index.php:184
+msgid "Grouped Products"
+msgstr "Gruppierte Produkte"
+
+#: index.php:184
+msgid ""
+"If this option is selected, plugin will separate items or group of items "
+"into assigned groups including variations."
+msgstr ""
+"Wenn diese Option ausgewählt ist, trennt das Plugin Elemente oder "
+"Elementgruppen in zugewiesene Gruppen, einschließlich Variationen."
+
+#: index.php:185
+msgid "Group by Vendors (User Role)"
+msgstr "Nach Anbietern gruppieren (Benutzerrolle)"
+
+#: index.php:185
+msgid ""
+"If this option is selected, plugin will separate items or group of items by "
+"multi-vendors into assigned groups."
+msgstr ""
+"Wenn diese Option ausgewählt ist, trennt das Plugin Elemente oder "
+"Elementgruppen von mehreren Anbietern in zugewiesene Gruppen."
+
+#: index.php:186
+msgid "Group by Vendors (User Terms)"
+msgstr "Nach Anbietern gruppieren (Nutzungsbedingungen)"
+
+#: index.php:186
+msgid ""
+"If this option is selected, plugin will separate items or group of items by "
+"multi WooCommerce vendors into assigned groups."
+msgstr ""
+"Wenn diese Option ausgewählt ist, trennt das Plugin Elemente oder "
+"Elementgruppen von mehreren WooCommerce-Anbietern in zugewiesene Gruppen."
+
+#: index.php:188
+msgid "Group by Attributes"
+msgstr "Nach Attributen gruppieren"
+
+#: index.php:188
+msgid ""
+"Variable Products can have multiple attributes and you can set rules to "
+"split and/or group having selected attributes."
+msgstr ""
+"Variable Produkte können mehrere Attribute haben und Sie können Regeln "
+"festlegen, um ausgewählte Attribute zu teilen und / oder zu gruppieren."
+
+#: index.php:189
+msgid "Group by Attributes Values"
+msgstr "Nach Attributen gruppieren Werte"
+
+#: index.php:189
+msgid ""
+"Variable Products will be grouped by the values they will be ordered with."
+msgstr ""
+"Variable Produkte werden nach den Werten gruppiert, mit denen sie bestellt "
+"werden."
+
+#: index.php:190
+msgid "Group by ACF Field Values"
+msgstr "Gruppieren nach ACF-Feldwerten"
+
+#: index.php:190
+msgid ""
+"Orders will be grouped according to the identical values found in product "
+"meta."
+msgstr ""
+"Bestellungen werden nach den identischen Werten in Produktmeta gruppiert."
+
+#: index.php:191
+msgid "Group by WooCommerce Booking (Partial Payment)"
+msgstr "Gruppieren nach WooCommerce-Buchung (Teilzahlung)"
+
+#: index.php:191
+msgid ""
+"Orders will be grouped according to booking date and partial or full payment "
+"mode."
+msgstr ""
+"Bestellungen werden nach Buchungsdatum und Teil- oder Vollzahlungsmodus "
+"gruppiert."
+
+#: index.php:192
+msgid "Group by Order Item Meta Values"
+msgstr "Gruppieren nach Bestellartikel-Metawerten"
+
+#: index.php:192
+msgid ""
+"Order items related meta data will be used to group the items in splitted "
+"orders."
+msgstr ""
+"Mit den Bestellartikeln zusammenhängende Metadaten werden verwendet, um die "
+"Artikel in geteilten Bestellungen zu gruppieren."
+
+#: index.php:194
+msgid "Group by Gravity Forms Meta from Product Page"
+msgstr "Gruppieren nach Schwerkraft bildet Meta von der Produktseite"
+
+#: index.php:194
+msgid ""
+"Product items meta data will be used to group the items in splitted orders."
+msgstr ""
+"Die Metadaten der Produktartikel werden verwendet, um die Artikel in "
+"geteilten Bestellungen zu gruppieren."
+
+#: index.php:392
+msgid ""
+"If any of the following selected items are found in the order, separate them "
+"in new orders exclusively. Rest of the items will remain in parent order."
+msgstr ""
+"Wenn einer der folgenden ausgewählten Artikel in der Bestellung enthalten "
+"ist, trennen Sie diese ausschließlich in neuen Bestellungen. Der Rest der "
+"Artikel bleibt in der übergeordneten Reihenfolge."
+
+#: index.php:393
+msgid ""
+"If any of the following selected items are found in the order, separate them "
+"in a new order inclusively. Rest of the items will remain in parent order."
+msgstr ""
+"Wenn eines der folgenden ausgewählten Elemente in der Reihenfolge gefunden "
+"wird, trennen Sie es in einer neuen Reihenfolge, einschließlich. Der Rest "
+"der Artikel bleibt in der übergeordneten Reihenfolge."
+
+#: index.php:394
+msgid ""
+"Keep selected items in parent order. And all other items will be separated "
+"individually."
+msgstr ""
+"Halten Sie ausgewählte Elemente in der übergeordneten Reihenfolge. Alle "
+"anderen Elemente werden einzeln getrennt."
+
+#: pro/wcos-pro.php:572
+msgid ""
+"Select meta_key from product type posts and define rules for order status on "
+"split action/trigger."
+msgstr ""
+"Wählen Sie meta_key aus Produkttyp-Posts aus und definieren Sie Regeln für "
+"den Auftragsstatus bei Split-Aktion / Trigger."
+
+#: pro/wcos-pro.php:593
+msgid "Products / Variations Having Meta Key"
+msgstr "Produkte / Variationen mit Meta Key"
+
+#: pro/wcos-pro.php:595
+msgid "With Meta Value"
+msgstr "Mit Metawert"
+
+#: pro/wcos-pro.php:596
+msgid "Should Go In WooCommerce Order Status"
+msgstr "Sollte in den WooCommerce-Bestellstatus gehen"
+
+#: pro/wcos-pro.php:680
+msgid "Preorder"
+msgstr "Vorbestellen"
+
+#: pro/wcos-pro.php:688
+msgid "Rule"
+msgstr "Regel"
+
+#: pro/wcos-pro.php:709
+msgid "Drag and drop items to change rule priority"
+msgstr "Ziehen Sie Elemente per Drag & Drop, um die Regelpriorität zu ändern"
+
+#: pro/wcos-pro.php:711
+msgid "Available/Defined Rules"
+msgstr "Verfügbare / definierte Regeln"
+
+#: pro/wcos-pro.php:715
+msgid "Top rule will take priority when multiple rules are applicable."
+msgstr "Die oberste Regel hat Priorität, wenn mehrere Regeln anwendbar sind."
+
+#: pro/wcos-pro.php:785
+msgid ""
+"Select meta_key(s) of orders to be cloned/copied in splitted and/or cloned "
+"orders:"
+msgstr ""
+"Wählen Sie meta_key (s) von Aufträgen aus, die in geteilten und / oder "
+"geklonten Aufträgen geklont / kopiert werden sollen:"
+
+#: pro/wcos-pro.php:786
+msgid "By default, all order meta keys will be copied."
+msgstr "Standardmäßig werden alle Auftrags-Metaschlüssel kopiert."
+
+#: pro/wcos-pro.php:6102
+msgid "Product Vendor"
+msgstr "Produktanbieter"
+
+#: pro/wcos-pro.php:6127
+msgid "Select"
+msgstr "Wählen"
+
+#: pro/wcos-pro.php:6970
+msgid "Parcel Shipment"
+msgstr "Paketversand"
+
+#: pro/wcos-pro.php:7364
+msgid "Customer"
+msgstr "Kunde"
+
+#: pro/wcos-pro.php:7412
+msgid "User"
+msgstr "Nutzer"
+
+#: pro/wcos-pro.php:8272 pro/wcos-pro.php:8431
+msgid "Backorder Limit"
+msgstr "Rückstandslimit"
+
+#: pro/wcos-pro.php:8274 pro/wcos-pro.php:8433
+msgid "Set a limit for backorders so no more backorder will be received."
+msgstr ""
+"Legen Sie ein Limit für Nachbestellungen fest, damit keine Nachbestellungen "
+"mehr eingehen."
+
+#: pro/wcos-pro.php:8377
+msgid "You cannot add"
+msgstr "Sie können nicht hinzufügen"
+
+#: pro/wcos-pro.php:8377
+msgid "to the cart due to insufficient stock."
+msgstr "in den Warenkorb wegen unzureichenden Lagerbestands."
+
+#: pro/wcos-pro.php:8615
+msgid "Deposit"
+msgstr "Anzahlung"
+
+#: pro/wcos-pro.php:8616
+msgid "Remaining Amount:"
+msgstr "Restbetrag:"
+
+#: pro/wcos-pro.php:9108
+msgid "Preferred Delivery Day?"
+msgstr "Bevorzugter Liefertag?"
+
+#: pro/wcos-pro.php:9132
+msgid "Shipping Class"
+msgstr "Versandklasse"
+
+#~ msgid "Speed Optimization Settings"
+#~ msgstr "Einstellungen für die Geschwindigkeitsoptimierung"
+
+#~ msgid "In stock order status after split"
+#~ msgstr "Bestellstatus nach Split"
+
+#~ msgid "Out stock order status after split"
+#~ msgstr "Auslagerungsstatus nach Split"
+
+#~ msgid "Subscription Split"
+#~ msgstr "Abonnement Teilt"
+
+#~ msgid "Templates"
+#~ msgstr "Vorlagen"
+
+#~ msgid "Debug log"
+#~ msgstr "Austestungsprotokoll"
+
+#~ msgid "Split Settings"
+#~ msgstr "Einstellungen teilen"
+
+#~ msgid "Split Method"
+#~ msgstr "Split-Methode"
+
+#~ msgid "Order Split Action"
+#~ msgstr "Geteilte Aktion bestellen"
+
+#~ msgid ""
+#~ "If any of the following selected items are found in the order, separate "
+#~ "them in new orders exclusively."
+#~ msgstr ""
+#~ "Wenn einer der folgenden ausgewählten Artikel in der Bestellung enthalten "
+#~ "ist, trennen Sie diese ausschließlich in neuen Bestellungen."
+
+#~ msgid "Rest of the items will remain in parent order."
+#~ msgstr "Der Rest der Artikel bleibt in der übergeordneten Reihenfolge."
+
+#~ msgid ""
+#~ "If any of the following selected items are found in the order, separate "
+#~ "them in a new order inclusively."
+#~ msgstr ""
+#~ "Wenn eines der folgenden ausgewählten Elemente in der Reihenfolge "
+#~ "gefunden wird, trennen Sie es in einer neuen Reihenfolge, einschließlich."
+
+#~ msgid "Keep selected items in parent order."
+#~ msgstr "Halten Sie ausgewählte Elemente in der übergeordneten Reihenfolge."
+
+#~ msgid "And all other items will be separated individually."
+#~ msgstr "Alle anderen Elemente werden einzeln getrennt."
+
+#~ msgid "Sorry, your nonce did not verify for settings."
+#~ msgstr "Entschuldigung, Ihr Nonce hat die Einstellungen nicht überprüft."
+
+#~ msgid "Sorry, your nonce did not verify for cuztomization."
+#~ msgstr "Entschuldigung, Ihr Nonce hat die Cuztomisierung nicht überprüft."
+
+#~ msgid "Sorry, your nonce did not verify for email fields."
+#~ msgstr "Entschuldigung, Ihre Nonce hat nicht nach E-Mail-Feldern gesucht."
+
+#~ msgid "Sorry, your nonce did not verify for categories."
+#~ msgstr "Entschuldigung, Ihre Nonce hat nicht nach Kategorien gesucht."
+
+#~ msgid "Sorry, your nonce did not verify for vendors."
+#~ msgstr "Entschuldigung, Ihr Nonce wurde nicht für Anbieter überprüft."
+
+#~ msgid "Sorry, your nonce did not verify for attributes."
+#~ msgstr "Entschuldigung, Ihre Nonce hat nicht nach Attributen gesucht."
+
+#~ msgid "Tax"
+#~ msgstr "MwSt"
+
+#~ msgid "Admin Success"
+#~ msgstr "Admin Erfolg"
+
+#~ msgid "Admin Failure"
+#~ msgstr "Admin-Fehler"
+
+#~ msgid "Vendor Success"
+#~ msgstr "Herstellererfolg"
+
+#~ msgid "Customer Failure"
+#~ msgstr "Kundenversagen"
+
+#~ msgid "Notices"
+#~ msgstr "Hinweise"
+
+#~ msgid "When there are one more order are splitted from original order."
+#~ msgstr ""
+#~ "Wenn es eine weitere Bestellung gibt, werden diese von der ursprünglichen "
+#~ "Bestellung getrennt."
+
+#~ msgid ""
+#~ "If this option is selected, plugin will separate items or group of items "
+#~ "according to the product categories these items belong to."
+#~ msgstr ""
+#~ "Wenn diese Option ausgewählt ist, trennt das Plugin Artikel oder "
+#~ "Artikelgruppen nach den Produktkategorien, zu denen diese Artikel gehören."
+
+#~ msgid "Select a group and allow/disallow meta keys from the following."
+#~ msgstr ""
+#~ "Wählen Sie eine Gruppe aus und erlauben / verbieten Sie Metaschlüssel aus "
+#~ "den folgenden Schritten."
+
+#~ msgid "Leave blank for all allowed."
+#~ msgstr "Leer lassen für alle erlaubt."
+
+#~ msgid "Default: All attributes are considered selected."
+#~ msgstr "Standard: Alle Attribute gelten als ausgewählt."
+
+#~ msgid "Default: All attributes are considered as selected."
+#~ msgstr "Standard: Alle Attribute gelten als ausgewählt."
+
+#~ msgid "Expected Order Packages"
+#~ msgstr "Erwartete Bestellpakete"
